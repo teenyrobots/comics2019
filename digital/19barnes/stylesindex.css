@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+    text-align: center;
+}
+
+.horizDiv{
+    height: 100vh;
+    width: 400vh;
+}
+
+.horizDiv1{
+    height: 100vh;
+    width: 300vh;
+}
+
+.body2 {
+    background-image: url(assets/p2bg.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.body3 {
+    background-image: url(assets/p3bg.gif);
+    background-repeat: no-repeat;
+}
+
+
+.body4 {
+    background-image: url(assets/pfbggif.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.buttons a img {
+    height: 3rem;
+}
+
+.start a img {
+    height: 3rem;
+    display: flex;
+    text-align: center;
+}

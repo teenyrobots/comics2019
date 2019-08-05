@@ -1,0 +1,62 @@
+
+@font-face {
+    
+    
+    font-family: "Haleysfont";
+    src: url("HaleysXc-Regular.ttf");
+    
+}
+
+
+body {
+    
+    background-color: aquamarine;
+    text-align: center;
+    font-family: Haleysfont;
+    
+}
+
+img {
+    
+    padding: 1rem;
+    margin: auto;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    
+}
+
+.allimages div img {
+    
+    width: 100%;
+    max-width: 1500px;
+    border-image-width: 1rem;
+}
+
+a {
+   
+    margin: auto;
+    font-size: 50px;
+    word-spacing: 10px;
+    text-decoration-line: none;
+
+}
+
+.nav :hover{
+    
+    background-color:floralwhite;
+    
+}
+
+.click {
+    
+    cursor: pointer;
+    
+}
+
+.musicon {
+    
+    width: 100%;
+    max-width: 100px;
+    position: fixed;
+    left: 1rem
+}

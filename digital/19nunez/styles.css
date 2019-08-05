@@ -1,0 +1,147 @@
+/* Stylesheet for CSS layout demo */
+
+@font-face {
+    font-family:"breena";
+    src: url("Thiccletters-Regular.ttf");
+}
+
+body {
+    background-color: seashell;
+    font-family: "breena"; 
+}
+
+
+.clickable {
+    cursor: pointer;
+    margin-bottom: 2vh;
+    margin-left: 30vh;
+    margin-top: 9vh;
+    
+}
+
+.purpleHover {
+    cursor: pointer;
+}
+
+
+
+p {
+/*    display: inline;*/
+    font-size: 2em;
+    font-weight: bold;
+/*    text-indent: 60px;*/
+/*    letter-spacing: 0px;*/
+/*    line-height: 0px;*/
+/*    margin-top: 20vh;*/
+/*    margin-left: 35vh;*/
+    text-decoration: none;
+    color: midnightblue;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: midnightblue;
+    
+}
+
+a:visited {
+    color: midnightblue;
+}
+
+a:active {
+    color: midnightblue;
+}
+
+a:hover {
+    color: deeppink;
+}
+
+.autumnControl {
+    display: inline;
+    line-height: 0px;
+    margin-top: 10vh;
+    margin-left: 40vh;
+
+}
+
+.horizDiv img {
+    margin: 0 22vh;
+}
+
+
+.parentDiv img {
+    width: 70%; 
+    max-width: 999px;
+}
+
+.parentDiv img {
+    object-position: left;
+}
+
+.parentDiv {
+    position: relative;
+}
+
+
+
+.left {
+    position: absolute;
+    color: midnightblue; 
+    padding: .30rem;
+    top: 32vh;
+    right: 590vh;
+    text-decoration: none;
+    width: 100%; 
+    max-width: 999px;
+    font-size: 2rem;
+    
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    max-width: 1000px;
+    margin: auto;
+    align-items: center;
+}
+
+/*
+.navDiv a {
+    width: 30%;
+}
+
+.navDiv img {
+    width: 100%;
+}
+
+.navDiv a img:hover {
+    background-color: aqua
+}
+
+.navDiv a img:active {
+    background-color: deepskyblue;
+}
+*/
+
+* {
+    box-sizing: content-box; /* this says to include margins, border, and padding when computing the "size" of an element. */
+}
+
+.horizDiv {
+    position: relative;
+    height: 50vh; /* make this value 100vh so it resizes based on viewport height */
+    width: 3200vh; /* make this value however many vh necessary to fit all your content */
+}
+
+.horizDiv img {
+    height: 80vh; /* the image will also need to rescale based on viewport height */
+}
+
+      
+

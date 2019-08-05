@@ -1,0 +1,332 @@
+/* Stylesheet for At the Mountian of Feathers */
+
+
+@font-face {
+    font-family: "dum";
+    src: url("dum2.ttf");
+}
+
+
+* {
+    box-sizing: content-box;
+}
+    
+
+
+body {
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    background-color: #1f2d2d;
+    font-family: dum;
+}
+
+.menueText {
+    margin-top: 10%;
+    background-color: whitesmoke;
+    padding: 5rem;
+    width: 75%;
+    max-width: 1000px;
+    box-sizing: content-box;
+}
+
+.start {
+    width: 50%;
+    max-width: 400px;
+    cursor: pointer;
+}
+
+#FeatherStart {
+    position:absolute;
+    width: 15%;
+   top: 25%;
+    right: 60%;
+}
+
+/*.comicp1 {
+    position: absolute;
+    top: 10%;
+    padding-bottom: 5rem;
+    z-index: 1000;
+}*/
+
+.next1 {
+    width: 100%;
+    max-width:100px;
+    max-height: 100px;
+    position: absolute;
+    top: 90%;
+    right: -10%;
+    z-index: 1010;
+    cursor: pointer;
+}
+
+.nextfinal {
+    width: 100%;
+    max-width:300px;
+    max-height: 100px;
+    position: absolute;
+    top: 92%;
+    right: 34%;
+    z-index: 1010;
+    cursor: pointer;
+}
+.next2 {
+    width: 100%;
+    max-width:100px;
+    max-height: 100px;
+    position: static; 
+    bottom: 10%;
+    right: 40%;
+    z-index: 1010;
+    cursor: pointer;
+}
+
+.absolutePOS {
+    position: absolute;
+    top: 10%;
+    padding-bottom: 5rem;
+    z-index: 1000;
+    width: 100%;
+    max-width: 1000px;
+}
+    
+/* this is the container which holds the images that are being positioned */
+.posParent {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    max-height: 500px;
+    overflow: auto;
+}
+
+/* this sets the background img to be 100% of the size of its container */
+.scrollImg {
+    width: 1000%;
+}
+
+.float {
+    position: absolute;
+}
+
+
+/* this makes the img inside the link tag the right size */
+.float img {
+    width: 100%;
+}
+
+#momQuestion {
+    width: 80%;
+    max-width: 375px;
+    top: 400%;
+    left: 525%;
+    z-index: 1000
+}
+
+/* this is a style for the a tag, which actually links to the next page */
+.momAnswer1 {
+    top: 415%; /* offset from top */
+    left: 525%; /* offset from left */
+    width: 40%; /* size of the element, relative to the parent container */
+    z-index: 1005
+}
+
+.momAnswer2 {
+    top: 415%; /* offset from top */
+    left: 565%; /* offset from left */
+    width: 35%; /* size of the element, relative to the parent container */
+    z-index: 1005;
+}
+
+#worldPage1Start {
+    position:absolute;
+    top: 275%;
+    z-index: -10;
+    width: 10%;
+}
+
+#worldPageMomStart {
+    position:absolute;
+    top: 435%;
+    left:545%;
+    z-index: -10;
+    width: 10%;
+}
+
+#worldPageRunStart {
+    position:absolute;
+    top: 375%;
+    left:565%;
+    z-index: -10;
+    width: 10%;
+}
+
+
+#BurryTheFeatherMom {
+    position: absolute;
+    top:50%;
+    left: 940%;
+    width: 40%;
+}
+
+#BurryTheFeatherRun {
+    position: absolute;
+    top: 50%;
+    left: 940%;
+    width: 40%;
+}
+
+.MomToBoyTransition {
+    position: absolute;
+    top: 60%;
+    left: 950%;
+    width: 20%;
+    min-width: 50px;
+}
+
+.RunToBoyTransition {
+    position: absolute;
+    top: 60%;
+    left: 950%;
+    width: 20%;
+    min-width: 50px;
+}
+
+#BoyPage{
+    background-color: black;
+    padding-bottom: 80rem;
+}
+
+.boyComicPage {
+    width: 70%;
+    max-width: 1000px;
+}
+
+.boyQuestion {
+    position: absolute;
+    top: 95%;
+    left: 26%;
+    width: 50%; 
+    max-width: 500px;
+    z-index: 1015;    
+    
+}
+
+.boyAnswer1 {
+    position: absolute;
+    top: 105%;
+    left: 30%;
+    width: 18%; 
+    z-index: 1020;
+    cursor: pointer;
+}
+
+.aChildren {
+    width: 100%;
+}
+
+.boyAnswer2 {
+    position: absolute;
+    top: 105%;
+    left: 55%;
+    width: 18%; 
+    z-index: 1015;
+    cursor: pointer;
+    
+}
+
+#worldPageTrustStart {
+     position:absolute;
+    top: 10%;
+    z-index: -10;
+    width: 10%;
+}
+
+#GetUpTrust {
+    position:absolute;
+    top: 615%;
+    left: 675%;
+    width: 30%;
+}
+
+.TrustToEndTransition {
+    position:absolute;
+    top: 617%;
+    left: 705%;
+    width: 10%;
+    cursor: pointer;
+}
+
+#GetUpAlone {
+    position:absolute;
+    top: 610%;
+    left: 720%;
+    width: 30%;
+}
+
+.AloneToEndTransition {
+    position:absolute;
+    top: 612%;
+    left: 755%;
+    width: 10%;
+    cursor: pointer;
+}
+
+
+#lastpage {
+    width: 60%;
+}
+
+#bloodpen {
+    position:absolute;
+    width: 20%;
+   top: 25%;
+    right: 20%
+}
+
+.clickable img:active{
+    background-color: purple
+}
+/*
+
+.WorldMap1 {
+    width: 500px;
+    height: 500px;
+}
+
+.WM1 {
+    top:-4000px;
+}
+.dragscroll {
+    overflow: auto;
+    
+}
+
+.worldSegment {
+    text-align: center;
+    width= 50%;
+    max-width: 1000px;
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

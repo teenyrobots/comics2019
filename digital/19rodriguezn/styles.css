@@ -1,0 +1,206 @@
+/* stylesheet */
+
+@font-face {
+    font-family:"NickyFont";
+    src: url("Nickyfont2019-Regular2.ttf")
+}
+
+.title{
+    line-height: 2rem;
+}
+
+.website{
+    line-height: 2rem;
+    
+}
+
+.clicker, .hoverLis, .hover {
+    cursor: pointer;
+}
+
+.grabbyHands {
+    cursor: grab;
+}
+
+.grabbingHands {
+    
+    cursor: grabbing;
+}
+
+#button2, button3, button5, button6, clickable {
+    cursor: pointer;
+}
+
+
+body {
+    background-color: black; 
+    font-family: NickyFont;
+}
+
+
+h1 {
+    color: ghostwhite;
+    width: 100%;
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    line-height: 1.5rem;
+}
+
+p {
+    color: ghostwhite;
+    width: 100%;
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    line-height: 1.5rem;
+}
+
+.parentDiv {
+    display: block;
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+   
+}
+
+.dragscrollParent {
+    height: 100%;
+    max-height: 800px;
+    overflow: auto;   
+    
+}
+
+#page {
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    box-sizing: border-box;
+    object-position: center;
+}
+
+.knob {
+    position: absolute;
+    top: 48.75%;
+    left: 43%;
+    max-width: 26%; 
+    /*max-height: none;*/
+}
+
+#lis {
+    position: absolute;
+    top: 61.778%;
+    left: 17.5%;
+    width: 70%;
+}
+#panel {
+    position: absolute;
+    top:13%;
+    right: 15%;
+    max-width: 70%;
+}
+
+#hoverBoys {
+    position: absolute;
+    top: 47.05%;
+    left: 15%;
+    max-height: 39%;
+}
+
+#button2 {
+    position: absolute;
+    height: 10%;
+    width: 17%; 
+    top: 70%;
+    left: 13.5%;
+    z-index: 1003;
+    
+}
+
+#button3 {
+    position: absolute;
+    height: 10%;
+    width: 17%; 
+    top: 70%;
+    left: 70%;
+    z-index: 1004;
+    
+    
+}
+
+
+#button5 {
+    position: absolute;
+    height: 10%;
+    width: 17%; 
+    top: 70%;
+    left: 13.5%;
+    z-index: 1005;
+    
+}
+
+#button6 {
+    position: absolute;
+    height: 10%;
+    width: 17%; 
+    top: 70%;
+    left: 70%;
+    z-index: 1006;
+    
+}
+
+
+.navDiv {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1000px;
+    align-items: center;
+    object-position: center;
+    margin: auto;
+    height: auto;
+    box-sizing: border-box;
+    
+}
+
+.navDiv a {
+    width: 30%;
+    max-width: 100px;
+}
+
+.navDiv img {
+    width: 100%;
+}
+
+.navDiv a img:hover {
+    background-color: darkslateblue;
+}
+
+.navDiv a img:active {
+    background-color: darkslategray;
+}
+
+a {
+    padding: .25rem;
+}
+
+a:link {
+    color: white;
+}
+a:visited {
+    color: darkred;
+}
+
+a:hover {
+    background-color: darkslateblue;
+}
+
+a:active {
+    background-color: darkslategray;
+}

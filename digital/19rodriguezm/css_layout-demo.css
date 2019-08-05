@@ -1,0 +1,60 @@
+/* stylesheet for CSS layout */
+
+body {
+    background-color: palegreen;
+}
+
+.parentDiv img {
+    width: 100%;
+    max-width: 1000px;
+    box-sizing: border-box;
+}
+
+.parentDiv {
+    position: relative;
+    }
+
+.absolutePanel { /* use for transparent images only */
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .5;
+}
+
+.fixedElement {
+    position: fixed;
+    background-color: deeppink;
+    color: ghostwhite;
+    padding: .25rem;
+    top: 1rem;
+    right: 1rem;
+    z-index: 1000;
+}
+.special {
+    border: 1rem green dashed;
+}
+
+
+.navDiv {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 500px;
+    align-items: center;
+}
+
+.navDiv a {
+    width: 30%;
+}
+
+.navDiv img {
+    width: 100%
+}
+
+.navDiv a img:hover {
+    background-color: aqua;
+} 
+
+navDiv a img:active {
+    background-color: hotpink;
+} 

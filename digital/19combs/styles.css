@@ -1,0 +1,41 @@
+/* This is the style sheet for Magical Boys VS Zombies */
+
+@font-face {
+    font-family: "AlexFont";
+    src: url("AlexFont.ttf");
+}
+
+body {
+    background-color: aquamarine;
+    font-family: AlexFont;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.mainDiv {
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 600px;
+    padding: 1rem;
+}
+
+.mainDiv img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: auto;
+    
+}
+
+.clicker {
+    cursor: pointer;
+}
+
+.popOut {    
+    border: hotpink solid 10px;
+}
+

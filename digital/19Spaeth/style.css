@@ -1,0 +1,51 @@
+/*Maggie's Maggic Shop */
+
+@font-face {
+    
+    
+    font-family: "Haleysfont";
+    src: url("HaleysXc-Regular.ttf");
+    
+}
+
+
+body {
+    
+    background-color: aquamarine;
+    text-align: center;
+    font-family: Haleysfont;
+    
+}
+    
+
+ .titlestuff {
+    
+     color: darkmagenta;
+     
+}
+
+.titlepic {
+    
+    width: 100%;
+    max-width: 1000px;
+    
+}
+
+.titleimage hover{
+    
+    background-color: beige;
+    
+}
+
+.click {
+    
+    cursor: pointer;
+}
+
+.musicon {
+    
+    width: 100%;
+    max-width: 100px;
+    position: fixed;
+    left: 1rem
+}

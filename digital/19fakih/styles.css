@@ -1,0 +1,166 @@
+/* stylesheet for CSS layout demo */
+
+@font-face {
+    font-family: "samiafont";
+    src:url(assets/lemonyellow.ttf);
+}
+
+
+
+body {
+    background-color: #FFF2F4;
+    margin:0;
+    
+}
+
+
+img {
+    width: 90%;
+    max-width: 900px;
+    display: block;
+    margin:auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: transparent;
+    box-sizing: border-box
+}
+p { 
+    text-align: center
+    
+}
+h1 {
+    color: hotpink;
+    text-align: center;
+    font: 5rem;
+    background-color:#d4ecea;
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    font-family: fantasy;
+
+}
+
+.clickable {
+    cursor: pointer;
+    
+}
+
+.sound {
+    width: 100%;
+    max-width: 100px;
+    position: absolute;
+    left: 10%;
+    
+    
+}
+
+.title {
+    display: flex;
+    max-width: 300px;
+    
+}
+
+.parentdiv  img {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.parentdiv{
+    position:relative;
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+}
+
+.overlap {
+    position: absolute;
+    border-right: 1rem;
+    
+}
+
+#answer {
+    max-width:700px;
+    bottom: 1%;
+    left: 80%;
+}
+
+#answertwo {
+    max-width: 400px;
+    bottom: 8%;
+    left: 42%;
+}
+
+#answerthree {
+    bottom: -7%;
+    left: 17%;
+}
+
+#answerfour {
+    position: absolute;
+    bottom: 70%;
+    left: 65%;
+    width: 30%;
+}
+
+.special {
+    border: 1rem #ffd9de;
+}
+
+
+
+.choice {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    
+}
+
+.linknext {
+    display: flex;
+    box-sizing: border-box
+    
+}
+
+
+.navdiv {
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+    max-width: 300px;
+    align-items: center;
+    
+}
+
+.navdiv a {
+    height: 100px;
+}
+
+.navdiv img {
+    height: 100px;
+    margin: auto
+}
+
+.navdiv a img:hover {
+    background-color: #FF8D9C;
+}
+
+.navdiv a img:active {
+    background-color: #ff975e;
+}
+
+
+.topbar {
+    display: flex;
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+    
+}
+
+
+
+a:active {
+    background-color: coral;
+}

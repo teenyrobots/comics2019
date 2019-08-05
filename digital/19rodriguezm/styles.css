@@ -1,0 +1,21 @@
+
+
+  .navDiv {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    position: relative;
+  }
+
+.toolslinks {
+    width: 100%;
+    max-width: 10rem;
+    background-color: green;
+    position: relative;
+}
+
+.toolslinks img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
