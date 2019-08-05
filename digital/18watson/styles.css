@@ -1,0 +1,49 @@
+.specialImage {
+	background-color: white;
+	padding: 1em;
+}
+
+.vertical img {
+	width: 100%;
+	max-width: 1000px;
+	display: block;
+	margin: auto;
+}
+
+.horizontal {
+/* 
+	height:90vh;
+ */
+	width: 9000px;
+}
+
+.horizontal img {
+	height: 80vh;
+	max-height: 500px;
+}
+
+.options {
+	display: inline-block;
+	width: 300px;
+}
+
+.options img {
+	height: 40vh;
+	max-height: 225px;
+	display: block;
+}
+
+.centerlink {
+ display:block;
+ margin:auto;
+ text-align:center;
+}
+
+.navClass {
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	width:100%;
+	max-width:1000px;
+	margin:auto;
+}

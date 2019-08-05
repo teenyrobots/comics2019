@@ -1,0 +1,56 @@
+@font-face {
+	font-family:layRegular;
+	src: url('assets/Lay1-Regular.ttf');
+}
+
+body {
+	background-color: black;
+}
+
+h1 {
+	color: gray;
+	font-family: layRegular;
+	font-size: 100px;
+	text-align: center;
+	margin-top: 30%;
+	padding-bottom: 30%;
+}
+
+.enterButton {
+	display: block;
+	margin: auto;
+	margin-top: 30%;
+	margin-left: 40%;
+	width: 20%;
+	height: auto;
+}
+
+
+.comicPages img {
+	display: block;
+	margin: auto;
+	margin-top: 500px;
+	margin-bottom: 500px;
+	width: 80%;
+	
+}
+
+.exitButton {
+	display: block;
+	margin: auto;
+	margin-top: 40%;
+	margin-left: 30%;
+	width: 20%;
+	height: auto;
+	padding-bottom: 10%;
+}
+
+.soundContainer {
+	position: relative;
+	
+}
+
+.soundContainer img{
+	position: absolute;
+	background-color: black;
+}

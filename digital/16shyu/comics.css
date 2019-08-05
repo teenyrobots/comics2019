@@ -1,0 +1,257 @@
+html, body {
+	background: #eee;
+	margin: 2em 0;
+	padding: 0;
+}
+
+body {
+	max-width: 1200px;
+	margin: 0 auto;
+	font-family: sans-serif;
+	fon-size: 100%;
+}
+
+.comic {
+	display: flex;
+	flex-wrap: wrap;
+	font-family: ComicReliefRegular, 'Comic Sans', cursive;
+	padding: 1vmin;
+}
+
+.comic b {
+	font-family: ComicReliefBold, 'Comic Sans', cursive;
+	text-transform: uppercase;
+}
+
+.panel {
+	background-color: #111;
+	border: solid 2px #111;
+	display: inline-block;
+	flex: 1 1;
+	height: 400px;
+	margin: 1vmin;
+	overflow: hidden;
+	position: relative;
+}
+
+.panel1 h1 {
+	color: #fff;
+	text-align: center;
+	font-family: 'ClearSansBold', sans-serif;
+	font-size: 4em;
+	line-height: 1;
+	margin: .5em;
+}
+
+.panel1 h1 i {
+	font-family: 'ClearSansItalic', sans-serif;
+	font-size: .5em;
+}
+
+.panel1 p {
+	color: #fff;
+	text-align: center;
+	font-family: 'ClearSansLightRegular', sans-serif;
+	font-size: 1.25em;
+	margin: .625em;
+}
+
+.panel1 p b {
+	font-size: 1.5em;
+}
+
+.text {
+	background-color: #fff;
+	border: solid 2px #111;
+	margin: 0;
+	padding: 3px 10px;
+}
+
+.top-left {
+	left: -6px;
+	position: absolute;
+	top: -2px;
+	margin-right: 20%;
+}
+
+.bottom-right {
+	bottom: -2px;
+	position: absolute;
+	right: -6px;
+}
+
+.speech {
+	background-color: #fff;
+	border: solid 2px #111;
+	border-radius: 12px;
+	display: inline-block;
+	margin: .5em;
+	padding: .5em 1em;
+	position: relative;
+}
+
+.speech:before {
+	border: solid 12px transparent;
+	border-right: solid 12px #111;
+	border-top: solid 12px #111;
+	bottom: -24px;
+	content: "";
+	height: 0;
+	left: 24px;
+	position: absolute;
+	width: 0;
+}
+
+.speech:after {
+	border: solid 10px transparent;
+	border-right: solid 10px #fff;
+	border-top: solid 10px #fff;
+	bottom: -19px;
+	content: "";
+	height: 0;
+	left: 27px;
+	position: absolute;
+	width: 0;
+}
+
+.panel3 .speech.sound {
+	border-radius: 0;
+	margin: 10% 0 0 60%;
+}
+
+.panel8 .speech.sound {
+	border-radius: 0;
+	margin: 60% 0 0 40%;
+}
+
+.speech.sound:before {
+	border: solid 12px transparent;
+	border-left: solid 12px #111;
+	border-top: solid 12px #111;
+	bottom: -24px;
+	content: "";
+	height: 0;
+	left: 24px;
+	position: absolute;
+	width: 0;
+}
+
+.speech.sound:after {
+	border: solid 10px transparent;
+	border-left: solid 10px #fff;
+	border-top: solid 10px #fff;
+	bottom: -19px;
+	content: "";
+	height: 0;
+	left: 27px;
+	position: absolute;
+	width: 0;
+}
+
+.speech.sound a {
+	color: #111;
+	font-size: 4em;
+	line-height: .75;
+	text-decoration: none;
+	outline : none;
+}
+
+.panel4 .speech {
+	margin: 10%;
+}
+
+.panel5 .speech {
+	margin: 15% 0 0 10%;
+}
+
+.panel9 .speech {
+	margin: 10%;
+}
+
+.panel11 .speech {
+	margin: 5% 10%;
+}
+
+.panel:nth-child(1) {
+	flex-basis: 800px;
+	background-image: url(images/light.gif), url(images/city.png);
+	background-repeat: repeat-x, no-repeat;
+	background-position: left 200px, right bottom;
+	background-size: 40%, contain;
+}
+.panel:nth-child(2) {
+	flex-basis: 400px;
+	background-image: url(images/trafficlight.gif), url(images/city.png);
+	background-repeat: no-repeat, repeat-x;
+	background-position: right bottom, -30% bottom;
+	background-size: 50%, 300%;
+
+}
+.panel:nth-child(3) {
+	flex-basis: 200px;
+	background-image: url(images/phone.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: cover;
+}
+.panel:nth-child(4) {
+	flex-basis: 200px;
+	background-image: url(images/nick1.png);
+	background-repeat: no-repeat;
+	background-position: left -5%;
+}
+.panel:nth-child(5) {
+	flex-basis: 500px;
+	background-image: url(images/nick1.png);
+	background-repeat: no-repeat;
+	background-position: 80% bottom;
+	background-size: 50%;
+}
+.panel:nth-child(6) {
+	flex-basis: 300px;
+	background-image: url(images/nick4.png), url(images/city.png);
+	background-repeat: no-repeat, no-repeat;
+	background-position: 20% top, 80% 70%;
+	background-size: 45%, 600%;
+}
+.panel:nth-child(7) {
+	flex-basis: 200px;
+	background-image: url(images/nick2.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-size: contain;
+}
+.panel:nth-child(8) {
+	flex-basis: 200px;
+	background-image: url(images/car.png);
+	background-repeat: no-repeat;
+	background-position: 60% bottom;
+	background-size: 200%;
+}
+.panel:nth-child(9) {
+	flex-basis: 400px;
+	background-image: url(images/nick3.png);
+	background-repeat: no-repeat;
+	background-position: 0 10%;
+	background-size: 200%;
+}
+.panel:nth-child(10) {
+	flex-basis: 100px;
+	background-image: url(images/nick3.png);
+	background-repeat: no-repeat;
+	background-position: 20% -10%;
+	background-size: 200%;
+}
+.panel:nth-child(11) {
+	flex-basis: 200px;
+	background-image: url(images/nick3.png);
+	background-repeat: no-repeat;
+	background-position: left -50%;
+}
+.panel:nth-child(12) {
+	flex-basis: 500px;
+	background-image: url(images/nick5.png), url(images/city.png);
+	background-repeat: no-repeat, no-repeat;
+	background-position: 60% 120%, 50% bottom;
+	background-size: 20%, 400%;
+}

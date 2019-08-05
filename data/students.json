@@ -1,0 +1,417 @@
+{
+  "students": [
+    {
+      "displayName": "Trinidad Escobar",
+      "slug": "escobar",
+      "year": "2015",
+      "thesisPages": 12,
+      "thesisTitle": "Flood",
+      "digitalTitle": "Undertow",
+      "digitalUrl": "15escobar/escobar.html",
+      "thesisPath": "15escobar/"
+    },
+    {
+      "displayName": "Bex Freund",
+      "slug": "freund",
+      "year": "2015",
+      "thesisPages": 19,
+      "thesisTitle": "Fever Dreams of the City that Never Was",
+      "digitalTitle": "Aisling",
+      "digitalUrl": "15freund/freund.html",
+      "thesisPath": "15freund/",
+      "backgroundImage": "images/backgrounds/2.jpg"
+    },
+    {
+      "displayName": "Ashley Guillory",
+      "slug": "guillory",
+      "year": "2015",
+      "thesisPages": 30,
+      "thesisTitle": "Sam's Town",
+      "digitalTitle": "Morning Melody",
+      "digitalUrl": "15guillory/guillory.html",
+      "thesisPath": "15guillory/",
+      "backgroundImage": "images/backgrounds/1.jpg"
+    },
+    {
+      "displayName": "David Kelly",
+      "slug": "kelly",
+      "year": "2015",
+      "thesisPages": 8,
+      "thesisTitle": "Shorts",
+      "digitalTitle": "How to Catch a Spider",
+      "digitalUrl": "15kelly/page1.html",
+      "thesisPath": "15kelly/"
+    },
+    {
+      "displayName": "Maia Kobabe",
+      "slug": "kobabe",
+      "year": "2015",
+      "thesisPages": 20,
+      "thesisTitle": "The Thief's Tale",
+      "digitalTitle": "Night Driving",
+      "digitalUrl": "15kobabe/kobabe.html",
+      "thesisPath": "15kobabe/",
+      "backgroundImage": "images/backgrounds/3.jpg"
+    },
+    {
+      "displayName": "Jacob Magraw",
+      "slug": "magraw",
+      "year": "2015",
+      "thesisPages": 17,
+      "thesisTitle": "Lost Puppet Show",
+      "digitalTitle": "The Base",
+      "digitalUrl": "15magraw/magraw.html",
+      "thesisPath": "15magraw/"
+    },
+    {
+      "displayName": "Samuel Sattin",
+      "slug": "sattin",
+      "year": "2015",
+      "thesisPages": 21,
+      "thesisTitle": "Dad Sleeps Armageddon",
+      "digitalTitle": "Loon",
+      "digitalUrl": "15sattin/sattin.html",
+      "thesisPath": "15sattin/"
+    },
+    {
+      "displayName": "Nancy Teresa",
+      "slug": "teresa",
+      "year": "2015",
+      "thesisPages": 15,
+      "thesisTitle": "Fushicho (Wesley)",
+      "digitalTitle": "Gratitude",
+      "digitalUrl": "15teresa/teresa.html",
+      "thesisPath": "15teresa/"
+    },
+    {
+      "displayName": "Josh White",
+      "slug": "white",
+      "year": "2015",
+      "thesisPages": 20,
+      "thesisTitle": "Bad Year",
+      "digitalTitle": "I Went on a Walk and I Saw a Snake",
+      "digitalUrl": "15white/white.html",
+      "thesisPath": "15white/",
+      "backgroundImage": "images/backgrounds/4.jpg"
+    },
+    {
+      "displayName": "Shane McDermott",
+      "slug": "mcdermott",
+      "year": "2015",
+      "thesisPages": 14,
+      "thesisTitle": "The Seahorse Adventures",
+      "digitalTitle": "",
+      "digitalUrl": "",
+      "thesisPath": "15mcdermott/"
+    },
+    {
+      "displayName": "Ryan Bitinis",
+      "slug": "bitinis",
+      "year": "2016",
+      "thesisPages": 10,
+      "thesisTitle": "The Tale of Old Ryan",
+      "digitalTitle": "This Will All End in Flames",
+      "digitalUrl": "16bitinis/comics.html",
+      "thesisPath": "16bitinis/",
+      "backgroundImage": "images/backgrounds/5.jpg"
+    },
+    {
+      "displayName": "Kayan Cheung-Miaw",
+      "slug": "cheungmiaw",
+      "year": "2016",
+      "thesisPages": 21,
+      "thesisTitle": "Your Struggle is Your Strength",
+      "digitalTitle": "The Experience of Many Lifetimes",
+      "digitalUrl": "16cheungmiaw/kayan_cover.html",
+      "thesisPath": "16cheungmiaw/",
+      "backgroundImage": "images/backgrounds/6.jpg"
+    },
+    {
+      "displayName": "Peter Glanting",
+      "slug": "glanting",
+      "year": "2016",
+      "thesisPages": 15,
+      "thesisTitle": "Tomorrow Jerks #2",
+      "digitalTitle": "Boardsock Empire",
+      "digitalUrl": "16glanting/static-sock-town-a.html",
+      "thesisPath": "16glanting/"
+    },
+    {
+      "displayName": "Joseph Hewitt",
+      "slug": "hewitt",
+      "year": "2016",
+      "thesisPages": 24,
+      "thesisTitle": "How to Be Human, Day One",
+      "digitalTitle": "Ghost Radio",
+      "digitalUrl": "16hewitt/index.html",
+      "thesisPath": "16hewitt/"
+    },
+    {
+      "displayName": "Masami Inoue",
+      "slug": "inoue",
+      "year": "2016",
+      "thesisPages": 15,
+      "thesisTitle": "Whale and Albatross",
+      "digitalTitle": "Death",
+      "digitalUrl": "16inoue/home.html",
+      "thesisPath": "16inoue/",
+      "backgroundImage": "images/backgrounds/7.jpg"
+    },
+    {
+      "displayName": "Cordelia McGee-Tubb",
+      "slug": "mcgeetubb",
+      "year": "2016",
+      "thesisPages": 18,
+      "thesisTitle": "Selected Stories from Your Hands Are Clean and You Have Nothing to Worry About",
+      "digitalTitle": "Brocedurally Generated",
+      "digitalUrl": "16mcgeetubb/index.html",
+      "thesisPath": "16mcgeetubb/",
+      "backgroundImage": "images/backgrounds/8.jpg"
+    },
+    {
+      "displayName": "Paul Morehead",
+      "slug": "morehead",
+      "year": "2016",
+      "thesisPages": 18,
+      "thesisTitle": "The Free Radicals",
+      "digitalTitle": "James and the Oak",
+      "digitalUrl": "16morehead/James_and_the_Oakp1.html",
+      "thesisPath": "16morehead/"
+    },
+    {
+      "displayName": "Kristin Olson",
+      "slug": "olson",
+      "year": "2016",
+      "thesisPages": 6,
+      "thesisTitle": "Sick Bed Blues",
+      "digitalTitle": "The Crystal Ball",
+      "digitalUrl": "16olson/pg1.html",
+      "thesisPath": "16olson/",
+      "backgroundImage": "images/backgrounds/9.jpg"
+    },
+    {
+      "displayName": "Wei-Ching Shyu",
+      "slug": "shyu",
+      "year": "2016",
+      "thesisPages": 20,
+      "thesisTitle": "Licht",
+      "digitalTitle": "A Walk in the City",
+      "digitalUrl": "16shyu/index.html",
+      "thesisPath": "16shyu/"
+    },
+    {
+      "displayName": "Samantha Nicole Traina",
+      "slug": "traina",
+      "year": "2016",
+      "thesisPages": 16,
+      "thesisTitle": "Above the Surface",
+      "digitalTitle": "Devil and a Gun",
+      "digitalUrl": "16traina/Devil.html",
+      "thesisPath": "16traina/"
+    },
+    {
+      "displayName": "Lyssette Williams",
+      "slug": "williams",
+      "year": "2016",
+      "thesisPages": 18,
+      "thesisTitle": "4",
+      "digitalTitle": "Snack Time",
+      "digitalUrl": "16williams/comics.html",
+      "thesisPath": "16williams/",
+      "backgroundImage": "images/backgrounds/10.jpg"
+    },
+    {
+      "displayName": "Rachell Sumpter",
+      "slug": "sumpter",
+      "year": "2016",
+      "thesisPages": 10,
+      "thesisTitle": "Mazy & Gus",
+      "digitalTitle": "",
+      "digitalUrl": "",
+      "thesisPath": "16sumpter/"
+    },
+    {
+      "displayName": "Tris Bain",
+      "slug": "bain",
+      "year": "2017",
+      "thesisPages": 17,
+      "thesisTitle": "The First Witch",
+      "digitalTitle": "The Key & Cup",
+      "digitalUrl": "17bain/index.html",
+      "thesisPath": "17bain/",
+      "backgroundImage": "images/backgrounds/11.jpg"
+    },
+    {
+      "displayName": "Eli Bishop",
+      "slug": "bishop",
+      "year": "2017",
+      "thesisPages": 20,
+      "thesisTitle": "Shift Report",
+      "digitalTitle": "Spex",
+      "digitalUrl": "17bishop/index.html",
+      "thesisPath": "17bishop/",
+      "backgroundImage": "images/backgrounds/12.jpg"
+    },
+    {
+      "displayName": "Craig Campbell",
+      "slug": "campbell",
+      "year": "2017",
+      "thesisPages": 16,
+      "thesisTitle": "Children in Heath",
+      "digitalTitle": "Skinhead Mixtape",
+      "digitalUrl": "17campbell/index.html",
+      "thesisPath": "17campbell/",
+      "backgroundImage": "images/backgrounds/13.jpg"
+    },
+    {
+      "displayName": "Lauren Davis",
+      "slug": "davis",
+      "year": "2017",
+      "thesisPages": 10,
+      "thesisTitle": "Meet Your Supreme Court Justices",
+      "digitalTitle": "Obergefell Family Tree",
+      "digitalUrl": "17davis/index.html",
+      "thesisPath": "17davis/"
+    },
+    {
+      "displayName": "Garrett Gainey",
+      "slug": "gainey",
+      "year": "2017",
+      "thesisPages": 14,
+      "thesisTitle": "Speed of Light",
+      "digitalTitle": "Dungeon Dude: Quest for the Golden Duck",
+      "digitalUrl": "17gainey/index.html",
+      "thesisPath": "17gainey/",
+      "backgroundImage": "images/backgrounds/14.jpg"
+    },
+    {
+      "displayName": "Patrick Lay",
+      "slug": "lay",
+      "year": "2017",
+      "thesisPages": 23,
+      "thesisTitle": "Ramble",
+      "digitalTitle": "Look Beneath",
+      "digitalUrl": "17lay/index.html",
+      "thesisPath": "17lay/",
+      "backgroundImage": "images/backgrounds/15.jpg"
+    },
+    {
+      "displayName": "Yael Leah Levy",
+      "slug": "levy",
+      "year": "2017",
+      "thesisPages": 24,
+      "thesisTitle": "Flights",
+      "digitalTitle": "Mermaid Beach Snorkeling",
+      "digitalUrl": "17levy/index.html",
+      "thesisPath": "17levy/"
+    },
+    {
+      "displayName": "Amber Padilla",
+      "slug": "padilla",
+      "year": "2017",
+      "thesisPages": 16,
+      "thesisTitle": "Reel Love",
+      "digitalTitle": "A Kitten's Tale",
+      "digitalUrl": "17padilla/index.html",
+      "thesisPath": "17padilla/"
+    },
+    {
+      "displayName": "Meggie Ramm",
+      "slug": "ramm",
+      "year": "2017",
+      "thesisPages": 16,
+      "thesisTitle": "Stick World: Chapter 2",
+      "digitalTitle": "EXPLORE THE INTERNET",
+      "digitalUrl": "17ramm/index.html",
+      "thesisPath": "17ramm/"
+    },
+    {
+      "displayName": "Kellyn Borst",
+      "slug": "borst",
+      "year": "2018",
+      "thesisPages": 9,
+      "thesisTitle": "Dredkuld",
+      "digitalTitle": "MARS 2056",
+      "digitalUrl": "18borst/index.html",
+      "thesisPath": "18borst/",
+      "backgroundImage": "images/backgrounds/15.jpg"
+    },
+    {
+      "displayName": "Phillip Fleming",
+      "slug": "fleming",
+      "year": "2018",
+      "thesisPages": 9,
+      "thesisTitle": "Lost Jerusalem",
+      "digitalTitle": "The Final Round",
+      "digitalUrl": "18fleming/index.html",
+      "thesisPath": "18fleming/",
+      "backgroundImage": "images/backgrounds/16.jpg"
+    },
+    {
+      "displayName": "Guo Tianyi",
+      "slug": "guo",
+      "year": "2018",
+      "thesisPages": 10,
+      "thesisTitle": "Time in the Bottle",
+      "digitalTitle": "Fox & Rabbit",
+      "digitalUrl": "18guo/fr1-1.html",
+      "thesisPath": "18guo/",
+      "backgroundImage": "images/backgrounds/17.jpg"
+    },
+    {
+      "displayName": "Sean Marney",
+      "slug": "marney",
+      "year": "2018",
+      "thesisPages": 10,
+      "thesisTitle": "God and the Robots",
+      "digitalTitle": "The Future Now",
+      "digitalUrl": "18marney/index.html",
+      "thesisPath": "18marney/",
+      "backgroundImage": "images/backgrounds/18.jpg"
+    },
+    {
+      "displayName": "Fouad Mezher",
+      "slug": "mezher",
+      "year": "2018",
+      "thesisPages": 12,
+      "thesisTitle": "Enigma",
+      "digitalTitle": "Bradley's Vison Quest",
+      "digitalUrl": "18mezher/index.html",
+      "thesisPath": "18mezher/",
+      "backgroundImage": "images/backgrounds/19.jpg"
+    },
+    {
+      "displayName": "Andrew Simpson",
+      "slug": "simpson",
+      "year": "2018",
+      "thesisPages": 15,
+      "thesisTitle": "Sin City Heroes:<br> Gray Falcon",
+      "digitalTitle": "Desert Kingdom",
+      "digitalUrl": "18simpson/index.html",
+      "thesisPath": "18simpson/",
+      "backgroundImage": "images/backgrounds/20.jpg"
+    },
+    {
+      "displayName": "Eric Wong",
+      "slug": "wong",
+      "year": "2018",
+      "thesisPages": 18,
+      "thesisTitle": "Pulp Nonfiction, <br> Chapters 1&2",
+      "digitalTitle": "MausIII: The Movie",
+      "digitalUrl": "18wong/index.html",
+      "thesisPath": "18wong/",
+      "backgroundImage": "images/backgrounds/21.jpg"
+    },
+    {
+      "displayName": "DT Watson Jr.",
+      "slug": "watson",
+      "year": "2018",
+      "thesisPages": 14,
+      "thesisTitle": "Big Bad Mama Duke",
+      "digitalTitle": "",
+      "digitalUrl": "",
+      "thesisPath": "18watson/",
+      "backgroundImage": "images/backgrounds/22.jpg"
+    }
+  ]
+}

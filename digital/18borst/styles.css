@@ -1,0 +1,24 @@
+
+@font-face {
+  font-family: "Kellynscrookfont-Regular";
+  src: url("assets/Kellynscrookfont-Regular.ttf") format("truetype");
+}
+
+body {
+	font-family: Kellynscrookfont-Regular;
+	
+	background-color: Black;
+	margin: 0;
+	padding: 0;
+	
+	Color: White;
+}
+
+img {
+	display: block;
+	margin: auto;
+	width: 100%;
+	max-width: 800px;
+	
+}
+

@@ -1,0 +1,44 @@
+/* Stylesheet for CSS */
+body {
+	background-color: tan;
+}
+
+.centeredResponsive {
+	display: block;
+	margin: auto;
+	width: 100%;
+	height: auto;
+	max-width: 1000px;
+}
+
+.centeredResponsiveSmall {
+	display: block;
+	margin: auto;
+	width: 100%;
+	height: auto;
+	max-width: 400px;
+}
+
+
+.responsiveClass {
+	width: 100%;
+	height: auto;
+	max-width: 1000px;
+}
+
+.myWideClass {
+	width: 100%;
+}
+
+.myWideClass img {
+	width: 50%;
+	max-width:1400px;	
+}
+
+.centeredResponsiveSmallest {
+	display: block;
+	margin: auto;
+	width: 100%;
+	height: auto;
+	max-width: 100px;
+}

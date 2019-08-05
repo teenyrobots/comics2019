@@ -1,0 +1,152 @@
+<!--I am a comment. Comments in this document refer to the code directly below it-->
+
+<!--A tag that displays to the internet world that this is an html document-->
+<!DOCTYPE html>
+
+<!--Inside these tags is where I'm going to put the html content. In this class, that will be all the code except doctype line above-->
+<html>
+
+
+	<!--Head includes information about the document and stuff I want to pre-load-->
+	<head>
+
+		<!--Every page must have a title—this is what will be displayed in the browser window-->
+		<title>Obergefell Family Tree by Lauren Davis</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+
+	<!--Every tag that is opened must also be closed by another tag with a slash in the front-->
+	</head>
+
+
+
+	<!--The content you want to display will be inside the body tags-->
+	<body>
+		<h2>Each of these cases serves as a precedent for <i>Obergefell v. Hodges</i>. Click on the glowing case to see its precedent cases. Click on any other case to learn more about that case.</h2>		
+		<div class="lovingMap">
+			
+			<img src="assets/FirstMap.gif"
+				class="mapImage"
+				usemap="bigMap"
+			>
+	
+			<map name="bigMap">
+				<area shape="rect"
+					coords="686, 383, 812, 623"
+					href="loving.html"
+					alt="loving v virginia this card is glowing"
+				>
+				<area shape="rect"
+					coords="682, 669, 808, 903"
+					class="lightboxWindsor"
+					alt="us v windsor"
+				>
+				<area shape="rect"
+					coords="964, 497, 1096, 737"
+					class="lightboxObergefell"
+					alt="obergefell v hodges"
+				>	
+				<area shape="rect"
+					coords="880, 187, 1022, 439"
+					class="lightboxTurner"
+					alt="turner v safley"
+				>	
+				<area shape="rect"
+					coords="874, 813, 1008, 1055"
+					class="lightboxBaker"
+					alt="baker v nelson"
+				>		
+				<area shape="rect"
+					coords="1078, 863, 1210, 1099"
+					class="lightboxLawrence"
+					alt="lawrence v texas"
+				>		
+				<area shape="rect"
+					coords="1196, 501, 1332, 743"
+					class="lightboxGriswold"
+					alt="griswold v connecticut"
+				>	
+				<area shape="rect"
+					coords="1236, 165, 1368, 409"
+					class="lightboxPierce"
+					alt="pierce v society of sisters"
+				>	
+				<area shape="rect"
+					coords="1058, 191, 1194, 433"
+					class="lightboxZablocki"
+					alt="zablocki v redhail"
+				>	
+			</map>
+			
+			<!-- thumbnail image wrapped in a link -->
+			<a href="#img1">
+  				<img src="assets/Windsor.jpg" class="thumbnailWindsor">
+			</a>
+			<!-- lightbox container hidden with CSS -->
+				<a href="#_" class="lightboxWindsor" id="img1">
+  					<img src="assets/Windsor.jpg">
+				</a>
+			<!-- thumbnail image wrapped in a link -->
+			<a href="#img2">
+  				<img src="assets/Obergefell.jpg" class="thumbnailObergefell">
+			</a>
+			<!-- lightbox container hidden with CSS -->
+			<a href="#_" class="lightboxObergefell" id="img2">
+  				<img src="assets/Obergefell.jpg">
+			</a>
+			<!-- thumbnail image wrapped in a link -->
+			<a href="#img3">
+  				<img src="assets/Turner.jpg" class="thumbnailTurner">
+			</a>
+			<!-- lightbox container hidden with CSS -->
+			<a href="#_" class="lightboxTurner" id="img3">
+  				<img src="assets/Turner.jpg">
+			</a>
+			<!-- thumbnail image wrapped in a link -->
+			<a href="#img4">
+  				<img src="assets/Baker.jpg" class="thumbnailBaker">
+			</a>
+			<!-- lightbox container hidden with CSS -->
+			<a href="#_" class="lightboxBaker" id="img4">
+  				<img src="assets/Baker.jpg">
+			</a>
+			<!-- thumbnail image wrapped in a link -->
+			<a href="#img5">
+  				<img src="assets/Lawrence.jpg" class="thumbnailLawrence">
+			</a>
+			<!-- lightbox container hidden with CSS -->
+			<a href="#_" class="lightboxLawrence" id="img5">
+  				<img src="assets/Lawrence.jpg">
+			</a>
+			<!-- thumbnail image wrapped in a link -->
+			<a href="#img6">
+  				<img src="assets/Griswold.jpg" class="thumbnailGriswold">
+			</a>
+			<!-- lightbox container hidden with CSS -->
+			<a href="#_" class="lightboxGriswold" id="img6">
+  				<img src="assets/Griswold.jpg">
+			</a>
+			<!-- thumbnail image wrapped in a link -->
+			<a href="#img7">
+  				<img src="assets/Pierce.jpg" class="thumbnailPierce">
+			</a>
+			<!-- lightbox container hidden with CSS -->
+			<a href="#_" class="lightboxPierce" id="img7">
+  				<img src="assets/Pierce.jpg">
+			</a>
+			<!-- thumbnail image wrapped in a link -->
+			<a href="#img8">
+  				<img src="assets/Zablocki.jpg" class="thumbnailZablocki">
+			</a>
+			<!-- lightbox container hidden with CSS -->
+			<a href="#_" class="lightboxZablocki" id="img8">
+  				<img src="assets/Zablocki.jpg">
+			</a>
+				
+		</div>
+		
+		<!--script links-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="waypoints/lib/jquery.waypoints.min.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+	
+	</body>

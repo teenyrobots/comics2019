@@ -1,0 +1,576 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>  
+<head>
+
+<title>Spex, by Eli Bishop</title>
+
+<link rel="stylesheet" href="spex.css"/>
+
+<meta charset="UTF-8"> 
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"> 
+
+<meta name="viewport" content="width=850">
+
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/spex.js"></script>
+
+</head>
+
+<body>
+
+<div id="curse-meter">
+	<div id="curse-progress"></div>
+</div>
+
+<div class="column">
+
+<!--
+<div id="toggle-state-links">
+developer cheats to toggle state: <a href="#" data-state="part2-unlocked">part 2</a>
+<a href="#" data-state="part3-unlocked">part 3</a>
+<a href="#" data-state="cursed">cursed</a>
+<a href="#" data-state="not-cursed">not cursed</a>
+</div>
+-->
+
+<div class="title r2up">
+	<img class="p1x1" src="i/p00_title.png">
+	<a href="http://www.errorbar.net/">
+		<img class="p1x1" src="i/p00.1_title.png">
+	</a>
+</div>
+
+<!-- END TEMPORARY BUTTONS -->
+
+<h1 class="r1up sp2">
+	<img class="c1l" src="i/p00.1c.png" alt="Caption: My brother had a box of old comics...">
+</h1>
+
+<div class="r2up">
+	<div>
+		<h1 class="c2l">&nbsp;</h1>
+		<div class="has-popup">
+			<img class="p1x1" src="i/p01.png"
+				 alt="Image: A boy holds an old comic book. His older brother, with a concerned look, says: Hey, little dude? Don't bend that.">
+			<img class="halo-image popup-trigger" id="p01h_cover" src="i/p01h_cover.png"
+				 style="left: 96px; top: 202px; width: 256px; height: 196px;"
+			     alt="Ascotron #3 cover" title="Ascotron #3 (July, 1979). Never as popular as other toy-based comics of the time, Ascotron was cancelled after three issues but retained a loyal cult following, especially among fans of progressive rock.">
+			<img class="popup" id="p01p_cover" src="i/p01p_cover.png"
+				 style="left: 106px; bottom: -80px; width: 365px; height: 545px;"
+				 alt="Cover of a 1970s comic book called Ascotron. In outer space, monsters are attacking a robot who wears an ascot.">
+		</div>
+	</div>
+	<div>
+		<h1>
+			<img class="c2l" src="i/p02c.png" alt="Caption: I really got into all the weird ads in them.">
+		</h1>
+		<div class="has-popup">
+			<img class="p1x1" src="i/p02.png"
+				 alt="Image: A comic-book page full of ads for old novelty items. At the bottom of the page is one for 'X-Ray Spex'.">
+			<a class="popup-trigger halo" href="#" data-popup="#p02p_ad_kittens" alt="Kittens of the Sea ad"
+			   style="left: 114px; top: 46px; width: 177px; height: 112px;"></a>
+			<a class="popup-trigger halo" href="#" data-popup="#p02p_ad_kill" alt="I Can Kill with 3 Fingers ad"
+			   style="left: 114px; top: 161px; width: 177px; height: 117px;"></a>
+			<a class="popup-trigger halo" href="#" data-popup="#p02p_ad_spex" alt="X-Ray Spex ad"
+			   style="left: 114px; top: 281px; width: 177px; height: 112px;"></a>
+			<img class="popup" id="p02p_ad_kittens" src="i/p02p_ad_kittens.png"
+				 style="left: -60px; top: 10px; width: 433px; height: 280px;"
+				 alt="Ad close-up: Kittens of the Sea: Turn these freeze-dried catfish eggs loose and just watch what happens! $1.00 to KITTENS, Box 27A.">
+			<img class="popup" id="p02p_ad_kill" src="i/p02p_ad_kill.png"
+				 style="left: -60px; top: 80px; width: 415px; height: 280px;"
+				 alt="Ad close-up: I can kill with 3 fingers. It would be illegal and unethical for anyone to use or even learn these fighting technique. $1.00 to KILL, Box 7713.">
+			<img class="popup" id="p02p_ad_spex" src="i/p02p_ad_spex.png"
+				 style="left: -60px; top: 150px; width: 433px; height: 280px;"
+				 alt="Ad close-up: X-Ray Spex. $1.00. Really works! Hilarious optical trick may reveal more than you bargained for! SPEX, Box 8173.">
+		</div>
+	</div>
+</div>
+
+<div class="r2up" id="p03-04">
+	<div>
+		<img class="p1x1" src="i/p03.png"
+			 alt="Image: the boy asks his brother: 'Whoa, did you see this? X-ray glasses?' The brother replies, 'Ha, you wish. It's a scam.' Boy: 'Oh. How do you know?' Brother: 'I just know, OK?'">
+	</div>
+	<div id="p04" id="p04" class="halo has-overlay other-trigger">
+		<img class="p1x1" src="i/p04.png"
+			 title="like, unfocus your eyes"
+			 alt="Image: silhouette of the boy's hand in front of a lamp. Brother says: 'It's like if you hold your hand up to the light, and like unfocus your eyes. Same thing.'">
+		<img class="p1x1 overlay" id="p04o_hand_1" src="i/p04o_hand_1.png">
+		<img class="p1x1 overlay" id="p04o_hand_2" src="i/p04o_hand_2.png">
+	</div>
+</div>
+
+<div class="r2up">
+	<div>&nbsp;</div>
+	<div>
+		<h1>
+			<img class="c2l" src="i/p04.1c.png" alt="Disappointing, but I did enjoy messing with my eyes.">
+		</h1>
+	</div>
+</div>
+
+<div class="r1up sp2">
+	<h1>
+		<img class="c1l" src="i/p04.2c.png" alt="Time flies. We lost touch. I don't know if he kept the comics.">
+	</h1>
+</div>
+
+<div class="r2up sp2">
+	<div>
+		<h1>
+			<img class="c2l" src="i/p05c.png"
+				 alt="I still like to read weird ads...">
+		</h1>
+		<div class="has-popup">
+			<img class="p1x1" src="i/p05.png">
+		</div>
+	</div>
+	<div>
+		<h1>
+			<img class="c2l" src="i/p06c.png"
+				 alt="...not personal ads, but random stuff... you never know...">
+		</h1>
+		<div class="has-popup">
+			<img class="p1x1" src="i/p06.png"
+				 alt="A list of online classified ads. The last one says 'X-Ray Spex. Real.'">
+			<a class="popup-trigger halo" href="#" alt="X-Ray Spex ad"
+			   style="left: 80px; top: 200px; width: 177px; height: 35px;"></a>
+			<img class="popup" id="p06p_ad_spex" src="i/p06p_ad_spex.png"
+				 style="left: -10px; bottom: -12px; width: 425px; height: 220px;"
+				 alt="Ad close-up: X-Ray Spex. Real. Send $5 to 991 Lost Lane, Pleasantville. Please follow all safety instructions.">
+		</div>
+	</div>
+</div>
+
+<div class="r1up">
+	<h1>
+		<img class="c1l" src="i/p06.1c.png"
+			 alt="Not sure why I ordered them. Something new? Something old?">
+	</h1>
+</div>
+
+<div class="r2up sp2">
+	<div>
+		<h1>
+			<img class="c2l" src="i/p07c.png"
+				 alt="They looked weird, like not quite real.">
+		</h1>
+		<div class="has-overlay has-popup" id="p07">
+			<img class="p1x1" src="i/p07.png">
+			<a class="popup-trigger" href="#" title="looks like some kind of note"
+			   style="left: 205px; top: 114px; width: 176px; height: 54px;"></a>
+			<a class="put-spex-on other-trigger" href="#" title="put them on"
+			   style="left: 0; top: 181px; width: 284px; height: 122px;"></a>
+			<img class="anim" src="i/p07a_spex.gif"
+			   style="left: 117px; top: 217px; width: 256px; height: 120px;">
+			<img class="halo-image popup-trigger" src="i/p07h_note.png"
+				 style="left: 205px; top: 114px; width: 176px; height: 54px;"
+			 	 alt="read note" title="looks like some kind of note">
+			<img class="halo-image put-spex-on other-trigger" src="i/p07h_spex.png"
+				 style="left: 0; top: 181px; width: 378px; height: 162px;"
+				 alt="put glasses on" title="put them on">
+			<img class="popup" id="p07p_note" src="i/p07p_note.png"
+				 style="left: 133px; top: 14px; width: 300px; height: 120px;">
+		</div>
+	</div>
+	<div>
+		<h1 class="c1l">&nbsp;</h1>
+		<div>
+			<h1 class="sp4">
+				<img class="c2l" src="i/p08c.png"
+					 alt="Caption: I hesitated before putting them on...">
+			</h1>
+			<div class="part2 sp3 has-overlay">
+				<img class="p1x1" src="i/p08.png">
+				<img class="anim a-spex-med" style="left: 122px; top: 112px;" src="i/a_spex1_26px.gif">
+				<img class="anim a-spex-med" style="left: 86px; top: 114px;" src="i/a_spex2_26px.gif">
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Part 2 is revealed only after you put on the glasses; it also encloses part 3 -->
+
+<div class="part2">
+
+	<div class="r2up">
+		<div>
+			<h1>
+				<img class="c2l" src="i/p09c.png"
+					 alt="Caption: Nothing at first... but then when I kind of unfocused my eyes..."> 
+			</h1>
+			<div class="has-overlay halo">
+				<img class="p1x1 overlay-trigger" src="i/p09.png" title="like, unfocus your eyes">
+				<img class="p1x1 overlay" src="i/p09o_pov.png">
+			</div>
+		</div>
+		<div>
+			<h1 class="c2l">&nbsp;</h1>
+			<div class="has-overlay">
+				<img class="p1x1" src="i/p10.png">
+				<img class="anim a-spex-small" style="left: 108px; top: 137px;" src="i/a_spex2_26px.gif">
+				<img class="anim a-spex-small" style="left: 141px; top: 138px;" src="i/a_spex3_26px.gif">
+			</div>
+		</div>
+	</div>
+
+	<div class="r1up has-overlay halo">
+		<img class="p2x1 overlay-trigger" src="i/p11.png">
+		<img class="p2x1 overlay" src="i/p11o_pov.png">
+	</div>
+
+	<div class="r2up">
+		<div>
+			<h1>
+				<img class="c2l" src="i/p12c.png"
+					 alt="Caption: It was just like I'd always imagined...">
+			</h1>
+			<div class="has-overlay">
+				<img class="p1x1" src="i/p12.png">
+				<img class="anim a-spex-med" style="left: 110px; top: 196px" src="i/a_spex2_26px.gif">
+			</div>
+		</div>
+		<div>
+			<h1>
+				<img class="c2l" src="i/p13c.png"
+					 alt="Caption: ...though I did feel a little self-conscious.">
+			</h1>
+			<div class="has-overlay">
+				<img class="p1x1" src="i/p13.png">
+				<img class="anim a-spex-med" style="left: 69px; top: 189px" src="i/a_spex3_26px.gif">
+				<img class="anim a-spex-med" style="left: 106px; top: 196px" src="i/a_spex1_26px.gif">
+			</div>
+		</div>
+	</div>
+
+	<div class="r2up">
+		<div>
+			<h1>
+				<img class="c2l" src="i/p14c.png"
+					 alt="Caption: With no one around, I forgot they were on... things looked normal...">
+			</h1>
+			<div class="has-overlay" id="p14">
+				<img class="p1x1" src="i/p14.png">
+				<img class="anim a-spex-small" style="left: 136px; top: 101px;" src="i/a_spex3_26px.gif">
+				<a class="take-spex-off other-trigger" href="#" title="take them off"
+			   	   style="left: 100px; top: 93px; width: 77px; height: 32px;"></a>
+				<img class="halo-image take-spex-off other-trigger" id="p14h_spex" src="i/p14h_spex.png"
+					 style="left: 100px; top: 93px; width: 77px; height: 32px;"
+					 alt="take glasses off" title="take them off">
+			</div>
+		</div>
+		<div>
+			<h1 class="c1l">&nbsp;</h1>
+			<h1 class="sp4">
+				<div class="has-overlay">
+					<img class="c1l" src="i/p14.1c.png"
+						 alt="Caption: Finally thought to take them off.">
+					<a class="take-spex-off other-trigger halo" href="#" title="take them off"
+					   style="left: 216px; top: 0; width: 146px; height: 34px;"></a>
+				</div>
+			</h1>
+
+			<div class="part3 sp3">
+				<h1>
+					<img class="c2l" src="i/p15c.png"
+						 alt="Caption: It was a hell of a thing. I wished my brother could've seen it.">
+				</h1>
+				<div class="has-overlay">
+					<img class="p1x1" src="i/p15.png">
+					<div class="if-not-cursed">
+						<img class="anim a-spex-small" style="left: 256px; top: 245px;" src="i/a_spex3_16px.gif">
+						<img class="anim a-spex-small" style="left: 286px; top: 240px;" src="i/a_spex2_16px.gif">
+					</div>
+					<div class="if-cursed">
+						<img class="anim" style="left: 40px; top: 85px; width: 34px; height: 18px;"
+							 src="i/p15a_eyes.gif">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Part 3 (one of two endings) appears only after you remove the glasses -->
+
+	<div class="part3">
+
+		<div class="r1up sp2">
+			<h1>
+				<img class="c1l" src="i/p15.1c.png"
+					 alt="Caption: I felt a little weird the next morning.">
+			</h1>
+		</div>
+
+		<div class="if-not-cursed">
+
+			<div class="r2up">
+				<div>
+					<h1>
+						<img class="c2l" src="i/pn16c.png"
+							 alt="The feeling passed. And the glasses never worked again.">
+					</h1>
+					<img class="p1x1" src="i/pn16.png">
+				</div>
+				<div>
+					<h1>
+						<img class="c2l" src="i/pn17c.png"
+						 	 alt="But I'd seen something amazing, and I had to know.">
+					</h1>
+					<div class="has-popup">
+						<img class="p1x1" src="i/pn17.png">
+						<a class="popup-trigger" href="#" title="return address"
+			   			   style="left: 194px; top: 159px; width: 70px; height: 42px"></a>
+						<img class="halo-image popup-trigger" id="pn17h_address" src="i/pn17h_address.png"
+							 style="left: 194px; top: 159px; width: 70px; height: 42px;"
+							 alt="read return address" title="return address">
+						<img class="popup" id="pn17p_address" src="i/pn17p_address.png"
+							 style="left: 110px; top: 50px; width: 300px; height: 120px;">
+					</div>
+				</div>			
+			</div>
+
+			<div class="r2up">
+				<div>
+					<h1>
+						<img class="c2l" src="i/pn18c.png"
+							 alt="Who had done this and how and why?">
+					</h1>
+					<img class="p1x1" src="i/pn18.png">
+				</div>
+				<div>
+					<h1 class="c2l">&nbsp;</h1>
+					<img class="p1x1" src="i/pn19.png">
+				</div>			
+			</div>
+
+			<div class="r2up">
+				<div>
+					<img class="p1x1" src="i/pn20.png">
+				</div>
+				<div>
+					<img class="p1x1" src="i/pn21.png">
+				</div>			
+			</div>
+
+			<div class="r2up">
+				<div>
+					<img class="p1x1" src="i/pn22.png">
+				</div>
+				<div>
+					<img class="p1x1" src="i/pn23.png">
+				</div>			
+			</div>
+
+			<div class="r2up">
+				<div>
+					<img class="p1x1" src="i/pn24.png">
+				</div>
+			</div>
+
+			<div class="r1up sp3">
+				<h1>
+					<img class="c1l" src="i/pn24.1c.png"
+						 alt="I kept the glasses around for a while but then I lost them.">
+				</h1>
+				<h1 class="sp2">
+					<img class="c1l" src="i/pn24.2c.png"
+						 alt="I still read the ads sometimes...">
+				</h1>
+			</div>
+			<div class="r1up sp2">			
+				<img class="p2x1" src="i/pn25.png">
+				<h1 class="sp2">
+					<img class="c1l" src="i/pn25.1c.png"
+						 alt="But I started to enjoy spending more time outdoors.">
+				</h1>
+			</div>
+
+			<div class="footer">
+				<img src="i/end_green.png" width="67" height="36">
+			</div>
+
+		</div> <!-- end part 3 (not-cursed version) -->
+
+		<div class="if-cursed">
+
+			<div class="r2up">
+				<div>
+					<h1 class="c2l">
+						<img class="c2l" src="i/pc16c.png"
+							 alt="Maybe a hangover?">
+					</h1>
+					<img class="p1x1" src="i/pc16.png">
+				</div>
+				<div>
+					<h1>
+						<img class="c2l" src="i/pc17c.png"
+							 alt="Coffee didn't help so I went out for some air.">
+					</h1>
+					<img class="p1x1" src="i/pc17.png">
+				</div>			
+			</div>
+
+			<h1 class="r1up sp2">
+				<img class="c1l" src="i/pc17.1c.png"
+					 alt="I had left the glasses in the kitchen, but...">
+			</h1>
+
+			<div class="r1up has-overlay">
+				<img class="p2x1 halo overlay-trigger" src="i/pc18.png">
+				<img class="p2x1 overlay" src="i/pc18o_pov.png"
+					 data-max-opacity="0.6">
+			</div>
+
+			<h1 class="r1up">
+				<img class="c1l" src="i/pc18.1c.png"
+					 alt="Probably I should've paid attention to the warning label.">
+			</h1>
+
+			<div class="r2up">
+				<div>
+					<h1>
+						<img class="c2l" src="i/pc19c.png"
+							 alt="The problem was obvious but I noticed something else too...">
+					</h1>
+					<div class="has-overlay">
+						<img class="p1x1 halo overlay-trigger" src="i/pc19.png">
+						<img class="p1x1 overlay" src="i/pc19o_pov.png"
+							 data-max-opacity="0.5">
+					</div>
+				</div>
+				<div>
+					<h1>
+						<img class="c2l" src="i/pc20c.png"
+							 alt="It wasn't just clothes; anything next to a body was invisible.">
+					</h1>
+					<div class="has-overlay">
+						<img class="p1x1 halo overlay-trigger" src="i/pc20.png">
+						<img class="p1x1 overlay" src="i/pc20o_pov.png"
+							 data-max-opacity="0.4">
+					</div>
+				</div>
+			</div>
+
+			<div class="r2up">
+				<div>
+					<h1>
+						<img class="c2l" src="i/pc21c.png"
+							 alt="And the radius of this effect was increasing rapidly.">
+					</h1>
+					<div class="has-overlay">
+						<img class="p1x1 halo overlay-trigger" src="i/pc21.png">
+						<img class="p1x1 overlay" src="i/pc21o_pov.png"
+							 data-max-opacity="0.2">
+					</div>
+				</div>
+				<div>
+					<h1>
+						<img class="c2l" src="i/pc22c.png"
+							 alt="Soon this was going to be an impractical way to live.">
+					</h1>
+					<div class="has-overlay">
+						<img class="p1x1" src="i/pc22.png">
+						<img class="anim a-spex-small" style="left: 154px; top: 168px;" src="i/a_spex3_16px.gif">
+						<img class="anim a-spex-small" style="left: 240px; top: 160px;" src="i/a_spex3_16px.gif">
+					</div>
+				</div>			
+			</div>
+
+			<div class="r1up sp2">
+				<img class="p2x1" src="i/pc23.png">
+			</div>
+
+			<div class="r2up sp3">
+				<div>
+					<img class="p1x1" src="i/pc24.png">
+				</div>
+				<div class="has-overlay">
+					<img class="p1x1" src="i/pc25.png">
+					<img class="anim a-spex-med" style="left: 101px; top: 306px;" src="i/a_spex1_26px.gif">
+					<img class="anim a-spex-med" style="left: 128px; top: 306px;" src="i/a_spex2_26px.gif">
+					<img class="anim a-spex-med" style="left: 114px; top: 333px;" src="i/a_spex3_26px.gif">
+				</div>			
+			</div>
+
+			<div class="r1up sp3">
+				<h1>
+					<img class="c1l" src="i/pc25.1c.png"
+						 alt="Caption: Who had done this and how and why?">
+				</h1>
+			</div>
+
+			<div class="r2up sp3">
+				<div>
+					<img class="p1x1" src="i/pc26.png">
+				</div>
+				<div>
+					<img class="p1x1" src="i/pc27.png">
+				</div>			
+			</div>
+
+			<div class="r2up">
+				<div>
+					<img class="p1x1" src="i/pc28.png">
+				</div>
+				<div>
+					<img class="p1x1" src="i/pc29.png">
+				</div>			
+			</div>
+
+			<div class="p1up sp2">
+				<img class="p2x1" id="pc30" src="i/pc30.png">
+			</div>
+
+			<div class="r2up">
+				<div class="has-overlay has-popup">
+					<img class="p1x1" src="i/pc31.png">
+					<img class="anim a-spex-small" style="left: 74px; top: 156px;" src="i/a_spex3_26px_orange.gif">
+					<a class="popup-trigger" href="#" title="wait, is that a tattoo of..."
+		   			   style="left: 180px; top: 298px; width: 54px; height: 64px;"></a>
+					<img class="halo-image popup-trigger" id="pc31h_tattoo" src="i/pc31h_tattoo.png"
+		   			     style="left: 180px; top: 298px; width: 54px; height: 64px;"
+						 alt="examine tattoo" title="wait, is that a tattoo of...">
+					<img class="popup" id="pc31p_tattoo" src="i/pc31p_tattoo.png"
+						 style="left: 80px; top: 60px; width: 265px; height: 351px;">
+				</div>
+				<div>
+					<img class="p1x1" src="i/pc32.png">
+				</div>			
+			</div>
+
+			<div class="r1up sp4">
+				<h1>
+					<img class="c1l" src="i/pc33c.png"
+						 alt="We help each other out now.">
+				</h1>
+				<img class="p2x1" src="i/pc33.png">
+				<h1>
+					<img class="c1l" src="i/pc33.1c.png"
+						 alt="We get by.">
+				</h1>
+			</div>
+
+			<div class="footer">
+				<img src="i/end_red.png" width="67" height="36">
+			</div>
+
+		</div> <!-- end part 3 (cursed version) -->
+
+		<div class="footer">
+			<a class="restart-link" href="#">
+				<img src="i/start_over.png" width="125" height="36">
+			</a>
+		</div>
+
+	</div> <!-- end part 3 -->
+
+</div> <!-- end part 2 -->
+
+</div> <!-- end column -->
+
+<div class="bottom">
+</div>
+
+</body>
+
+</html>

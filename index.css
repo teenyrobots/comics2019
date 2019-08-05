@@ -1,0 +1,276 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+/*GENERAL STYLES*/
+a {
+    font-weight: 200;
+    text-decoration: none;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #66b2b2;
+    font-weight: 400;
+}
+
+a:active {
+    color: teal;
+}
+
+hr {
+    width: 100%;
+}
+
+p {
+    font-weight: 300;
+}
+
+/*REUSABLE ELEMENTS*/
+.transparent {
+    background-color: rgba(255, 255, 255, .8);
+    width: 100vw;
+    padding-bottom: 3em;
+}
+
+.button {
+  display: block;
+  flex-wrap: wrap;
+  background: rgba(0, 0, 0, .9);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .6);
+  text-align: center;
+  width: 10em;
+  padding: .5em;
+  margin: 1em auto;
+}
+
+.button h2 {
+  font-size: 4em;
+  margin: 0;
+}
+
+.button h3 {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.button p{
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.note {
+  width: 80%;
+  max-width: 700px;
+  display: block;
+  margin: 3em auto;
+  padding: 1em;
+  background: rgba(0, 0, 0, .9);
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, .6);
+}
+
+/*HEADER COMPONENT*/
+#header {
+    background: rgba(0,0,0,.9);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .6);
+    width: 100vw;
+}
+
+#bigHeader {
+    margin: auto;
+    text-align: left;
+    width: 80%;
+    max-width: 685px;
+    padding: 1em 0;
+    margin-top: 30vh;
+}
+
+#bigHeader h3 {
+    font-weight: 300;
+}
+
+#stickyHeader {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+    max-width: 1000px;
+    padding-top: .5em;
+    color: white;
+    position: sticky;
+    top: 0;
+    padding-bottom: .5em;
+    margin-bottom: 1em;
+}
+
+#stickyHeader img {
+    height: 2em;
+    padding: .5em;
+    margin: auto;
+}
+
+#stickyHeader div {
+    width: 100%;
+    max-width: 1000px;
+}
+
+/*#comics {*/
+  /*float: left;*/
+  /*padding-left: 1em;*/
+/*}*/
+
+/*#cca {*/
+  /*float: right;*/
+  /*padding-right: 1em;*/
+/*}*/
+
+#header h1 {
+    text-transform: uppercase;
+    font-size: 3em;
+    letter-spacing: .15em;
+    padding: .5em 0;
+    margin: auto;
+}
+
+#header h2 {
+    text-transform: uppercase;
+    font-weight: 200;
+    margin: auto;
+}
+
+
+/*STYLES FOR FOOTER COMPONENT*/
+#Footer {
+  max-width: 100%;
+  background: rgba(0,0,0,.9);
+  padding: 1em;
+  /*margin-top: 3em;*/
+}
+
+#Footer img {
+    padding: 2em;
+    height: 2em;
+}
+
+#luckyThesis {
+    font-style: italic;
+    font-weight: 400;
+    padding: 0 .25em;
+}
+
+#luckyStudent {
+    padding: 0 .25em;
+}
+
+#backgroundInfo {
+    text-transform: uppercase;
+    font-size: .75em;
+    font-weight: 300;
+    padding-top: 1em;
+    margin-bottom: 1em;
+}
+
+/*GRADS COMPONENT*/
+.year {
+    display: block;
+    margin: auto;
+    width: 80%;
+    max-width: 1000px;
+    background: rgba(0, 0, 0, .9);
+    margin-top: 2em;
+}
+
+.year h3 {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 1.5em;
+    text-align: center;
+    padding: .25em;
+    max-width: 675px;
+    margin: auto;
+}
+
+.studentCard {
+  margin: 1em 0;
+  padding: 1em 0;
+  width: 80%;
+  max-width: 300px;
+  background: rgba(0, 0, 0, .9);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .6);
+}
+
+.studentCard img {
+    border: solid 1px white;
+    max-width: 100%;
+}
+
+.studentCard img:hover {
+    opacity: .5;
+}
+
+
+.thesis p, .digital p {
+    background-color: black;
+    position: relative;
+    padding: 1em 5px;
+    width: 235px;
+    max-width: 95%;
+    margin: auto;
+    bottom: 1em;
+    text-transform: uppercase;
+    border: solid 1px white;
+}
+
+.thesis a, .digital a {
+    text-decoration: none;
+}
+
+.studentCard h1 {
+  display: block;
+  text-transform: uppercase;
+  font-weight: 300;
+    font-size: 1.5em;
+}
+
+.cardDad {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 1em;
+}
+
+.cardDad .button {
+    margin: 1em 0;
+}
+
+/*THESIS COMPONENT*/
+#comic img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+#ThesisBody {
+    background-color: white;
+}

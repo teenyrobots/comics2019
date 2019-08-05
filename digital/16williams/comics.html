@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>Snack Time</title>
+		<link rel="stylesheet" type="text/css" href="comicsstyles.css">
+		<script src="comicjavascript.js"></script>
+		<link rel="shortcut icon" type="image/png" href="../../../favicon.png">
+		
+		<audio id="openingBag" src="assets/openingbag.mp3"></audio>
+		<audio id="eatingChip" src="assets/eatingchips.mp3"></audio>
+
+	</head>
+
+
+	<body>
+
+		
+		
+		<img src="assets/title-and-animation.gif"
+		class="responsiveClass">
+			
+		<br>
+		<img src="assets/panel1.jpg"
+				class="responsiveClass"
+				id="soundPanel1"
+				onClick="playSound1()">		
+
+
+		<img src="assets/panel2.gif"
+		class="responsiveClass">
+		
+		
+		<center><table><tr>
+		
+			<td><img src="assets/no.jpg"
+			class="responsiveClass"
+			id="endingOne"
+			onClick="populateEnding1()"></td>
+			
+			
+			<td><img src="assets/panel3.jpg"
+			class="responsiveClass"></td>
+			
+			
+			<td><img src="assets/yes.jpg"
+			class="responsiveClass"
+			id="endingTwo"
+			onClick="populateEnding2()"></td>
+		</tr></table></center>
+		
+		<br>
+		<img src="assets/empty.png"
+				id="empty1"
+				style="max-width: 100%"> 
+		<img src="assets/empty2.png"
+				id="empty2"
+				onClick="playSound2()"
+				style="max-width: 100%">
+		<img src="assets/empty2.png"
+				id="empty3"
+				style="max-width: 100%">
+		<br>
+
+	
+				<img src="assets/nav-again.png"
+				onClick="window.location.reload()">
+		
+</div>
+
+
+
+
+	</body>
+
+
+</html>

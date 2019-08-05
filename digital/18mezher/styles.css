@@ -1,0 +1,121 @@
+/* Styles for Bradely's Vision Quest */
+
+body {
+	background-color: black;
+	margin: 0;
+}
+
+.normalimg {
+	width: 100%;
+	max-width: 700px;
+	display: block;
+}
+
+.normal {
+	width: 100%;
+	max-width: 700px;
+	margin: auto;
+	display: block;
+}
+
+.arrow {
+	width: 100%;
+	max-width: 700px;
+	margin: auto;
+	display: block;
+	position: relative;
+}
+
+#colorarrow {
+	width: 25%;
+	position: absolute;
+	top: 43.5%;
+	left: 34%;
+}
+
+.bag {
+	width:100%;
+	max-width: 111px;
+	margin: auto;
+	display: block;
+	margin-bottom: 4em;
+}
+
+.landimg{
+	height: 100%;
+	max-height: 550px;
+}
+
+.land {
+	height:100vh;
+	width: 710vh;
+	margin: auto;
+	margin-left: 2em;
+	margin-top: 4em;
+	display: block;
+}
+
+.pearl {
+	width: 100%;
+	max-width: 600px;
+	margin: auto;
+	display: block;
+	position: relative;
+}
+
+#colorpearl {
+	width: 22%;
+	position: absolute;
+	top: 53.5%;
+	left: 39.5%;
+}
+
+
+.feather {
+
+	width: 100%;
+	max-width: 700px;
+	margin: auto;
+	display: block;
+	position: relative;
+}
+
+
+
+
+#colorfeather {
+
+	width: 9.5%;
+	position: absolute;
+	top: 62.4%;
+	left: 30.5%;
+
+}
+
+.vertigopanel {
+
+	width: 100%;
+	max-width: 700px;
+	margin: auto;
+	display: block;
+	position: relative;
+}
+
+#vertigo {
+	display: block;
+	position: absolute;
+	width: 100%;
+	max-width: 700px;
+	margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+

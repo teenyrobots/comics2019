@@ -1,0 +1,125 @@
+/*styles for digital comics*/
+/*#42f4c5*/
+
+@font-face {
+	font-family: Meggie_Font;
+	src: url(assets/BowChickaOwOw.ttf);
+}
+
+body {
+
+}
+
+a:link, a:visited, a:active {
+	text-decoration: none;
+}
+
+h1 {
+	font-family: Meggie_Font;
+	font-size: 80px;
+	text-align: center;
+}
+
+h2 {
+	font-family: Meggie_Font;
+	text-align: center;
+	color: black;
+}
+
+.aImage {
+	display: block;
+	margin: auto;
+	height: 80%;
+	width: 80%;
+}
+
+.audioRed {
+	display: block;
+	margin: auto;
+	height: 50%;
+	padding-top: 1%;
+}
+
+.audioArrow {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.audioArrowDiv {
+	position: relative;
+}
+
+.finalRed {
+	display: block;
+	margin: auto;
+	height: 50%;
+	padding-top: 10%;
+}
+
+.indexDiv {
+	display: block;
+	margin: auto;
+	text-align: center;
+	color: black;
+	padding-left: 50px;
+}
+
+.lastlink {
+ 	cursor: url(assets/cursorlink.png), none;
+ 	text-decoration: none;
+ 	color: black;
+}
+
+.page4wrap {
+	width: 100%;
+}
+
+.page4left {
+	width: 50%;
+	height: 100%;
+	float: left;
+	cursor: url(assets/cursorleft.png), none;
+}
+
+.page4right {
+	width: 50%;
+	height: 100%;
+	float: right;
+	cursor: url(assets/cursorright.png), none;
+}
+
+.scrollDiv {
+	display: flex;
+	margin: auto;
+}
+
+.scrollRed {
+	height: 30%;
+	padding-top: 40%;
+	padding-left: 25%;
+	padding-right: 25%;
+	cursor: pointer;
+}
+
+.speaker {
+	height: 180px;
+	width: 180px;
+	padding: 10px;
+}
+
+.speakerContainer {
+	display: block;
+	margin: auto;
+}
+
+.speakerDiv {
+	display: flex;
+	margin: auto;
+	cursor: pointer;
+	justify-content: center;
+}
+
+.twoDiv {
+	position: relative;
+}

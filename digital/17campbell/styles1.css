@@ -1,0 +1,122 @@
+@font-face {
+	font-family: craigHand;
+	src: url('assets/Craigfont.ttf');
+}
+
+body {
+	background-image: url(assets/background.jpg);
+}
+
+h1 {
+	font-family: craigHand;
+	font-size: 50px;
+	color: black;
+	text-align: center;
+}
+
+
+.size {
+	position: relative;
+	width: 700px;
+	height:1028px;
+	display: block;
+	margin: auto;
+
+}
+
+.sizeAnimation {
+	position: absolute;
+	display: block;
+	right: 0px;
+	top: 0px;
+}
+
+
+.background {
+	width: 100%;
+	display: block
+	margin: auto;
+}
+
+.size img {
+	position: absolute;
+	right: 0;
+}
+
+.arrow {
+	position: absolute;
+	right: 0;
+	display: block;
+	
+}
+
+.absoluteDiv{
+	position: absolute;
+    top: 88px;
+    right: 16px;
+}
+
+.button {
+    background-color: transperant;
+    border: none;
+    color: white;
+	position: relative;
+    padding: 15px 32px;
+    display: block;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
+.comicContainer {
+	position: absolute;
+	display: block;
+	margin: auto;
+	height:1028;
+	width: 700px;
+}
+
+.recordplayer {
+	position: absolute;
+	background-color: transparent;
+	width: 125px;
+	height: 110px;
+	top: 475px;
+	left: 15px;
+}
+
+.jukebox {
+	position: absolute;
+	background-color: transparent;
+	width: 100px;
+	height: 170px;
+	top: 365px;
+	left: 75px;
+}
+
+.turntable {
+	position: absolute;
+	background-color: trasparent;
+	width: 250px;
+	height: 120px;
+	top: 500px;
+	right: 1px;
+}
+
+
+
+
+}
+
+/*
+
+ position: absolute;
+    top: 8px;
+    right: 16px;
+
+.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+*/

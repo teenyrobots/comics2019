@@ -1,0 +1,24 @@
+/* Styles for DC CSS demo */
+
+body {
+	background-color: black;
+	margin: 0;
+	padding: 0;
+}
+
+.whitebackground {
+	background-color:white;
+	}
+	
+.arrowbutton {
+		display: block;
+		width: 50%
+		max-width: 300px;
+		margin: auto;
+	}
+	
+.comicpage {
+		display: block;
+		width: 100%;
+		margin: 0px;
+	}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+	
+	<title>The Base by Jacob Magraw</title>
+	<link rel="shortcut icon" type="image/png" href="../../../../favicon.png">
+	
+	
+		<style>	
+		
+			
+		
+			body {
+				text-align: center;
+				margin: auto;
+				padding: 0;
+			}
+img {
+				width: 100%;
+				max-width: 600px;
+			}
+			.Container {
+				display:-webkit-box;
+				display:-webkit-flex;
+				display:-ms-flexbox;
+				display:flex;
+				overflow: hidden;
+				height: 100vh;
+				margin-top: -100px;
+				padding-top: 100px;
+				position: relative;
+				width: 100%;
+				backface-visibility: hidden;
+				will-change: overflow;
+			}
+
+			.Left,
+			.Right {
+				overflow: auto;
+				height: auto;
+				padding: .5rem;
+				margin: 5px;
+				-webkit-overflow-scrolling: touch;
+				-ms-overflow-style: none;
+			}
+			.Left {
+				width: 600px;
+				background-color: white;
+				text-align: left;
+			}
+
+			.Right {
+				width: 700px;
+				background-color: white;
+				text-align: right;
+			}
+
+			.Left::-webkit-scrollbar,
+			.Middle::-webkit-scrollbar,
+			.Right::-webkit-scrollbar {
+				display: none;
+			}
+		</style>
+<!--line 46-49 this line removes the side scroll bar-->
+	</head>
+
+	<body> 
+		<div class="Container">
+			<div class="Left">
+			
+			<img src="leftcolumn.jpg"
+		name="column1"
+		alt="comic page 4" 
+		width=600
+		height=auto>
+
+
+	</div>
+	
+	
+			<div class="Right">
+
+        <img src="rightcolumn.jpg"
+		name="page4"
+		alt="comic page 4" 
+		width=700
+		height=auto>
+
+	</div>
+	</body>
+	
+</html>

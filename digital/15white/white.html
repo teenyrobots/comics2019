@@ -1,0 +1,179 @@
+<!--This is how to do a comment-->
+<!--onClick="location.href='../page2/comic2.html'"-->
+
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+	
+	<title>I Went on a Walk and I Saw a Snake by Josh White</title>
+	<link rel="shortcut icon" type="image/png" href="../../../../favicon.png">
+	
+		
+		<script type="text/javascript">
+		
+			var image1=new Image()
+			image1.src="1.jpg"
+		
+			var image1b=new Image()
+			image1b.src="1b.jpg"
+			
+			var image2=new Image()
+			image2.src="2.jpg"
+			
+			var image2b=new Image()
+			image2b.src="2b.jpg"
+			
+			var image3=new Image()
+			image3.src="2b.jpg"
+			
+			var image3b=new Image()
+			image3b.src="3b.jpg"
+			
+			var image 4=new Image()
+			image4.src="4.jpg"
+			
+			var image 4b=new Image()
+			image4b.src="4b.jpg"
+			
+			var image 5=new Image()
+			image5.src="5.jpg"
+			
+			var image 5b=new Image()
+			image5b.src="5b.jpg"
+		
+		
+		</script>
+
+		
+		
+		
+		
+		<style>
+			body {				
+			background-color:#white;
+			text-align: center;
+				}
+		</style>
+	
+	</head>
+
+
+    <body>
+
+			<!--the code for slice1-->
+
+			<img usemap="#infobutton1" id="infobutton1" src="1.jpg" width="825" height="1356" />
+			<map name="infobutton1">
+			<area shape="rect" coords="598,206,678,286" onclick="changeImage1()" />
+			</map>
+	
+	
+			<script>
+			function changeImage1() {
+    			
+				var image = document.getElementById('infobutton1');   				 
+				 if (image.src.match("1b")) 				 
+				 {
+       			 image.src = "1.jpg";
+   				 } 				 
+				 else 
+				 {
+        		image.src = "1b.jpg";
+   				 }
+				
+				}
+			
+			</script>
+
+
+			<!--the code for slice2-->
+
+			<img usemap="#infobutton2" id="infobutton2" src="2.jpg" width="2552" height="2949" />
+			<map name="infobutton2">			
+			<area shape="rect" coords="745,1043,825,1123" onclick="changeImage2()" />			
+			</map>
+	
+	
+			<script>
+			function changeImage2() {
+    			var image = document.getElementById('infobutton2');
+   				 if (image.src.match("2b")) {
+       			 image.src = "2.jpg";
+   				 } else {
+        		image.src = "2b.jpg";
+   				 }
+				}
+			</script>	
+		
+
+
+			<!--the code for slice3-->
+
+			<img usemap="#infobutton3" id="infobutton3" src="3.jpg" width="3481" height="1185" />
+			<map name="infobutton3">			
+			<area shape="rect" coords="2997,78,3077,158" onclick="changeImage3()" />			
+			</map>
+	
+	
+			<script>
+			function changeImage3() {
+    			var image = document.getElementById('infobutton3');
+   				 if (image.src.match("3b")) {
+       			 image.src = "3.jpg";
+   				 } else {
+        		image.src = "3b.jpg";
+   				 }
+				}
+			</script>	
+		
+	
+	
+
+			<!--the code for slice4-->
+
+			<img usemap="#infobutton4" id="infobutton4" src="4.jpg" width="8192" height="1628" />
+			<map name="infobutton4">			
+			<area shape="rect" coords="3942,0,4022,78" onclick="changeImage4()" />			
+			</map>
+	
+	
+			<script>
+			function changeImage4() {
+    			var image = document.getElementById('infobutton4');
+   				 if (image.src.match("4b")) {
+       			 image.src = "4.jpg";
+   				 } else {
+        		image.src = "4b.jpg";
+   				 }
+				}
+			</script>	
+			
+	
+
+
+			<!--the code for slice5-->
+
+			<img usemap="#infobutton5" id="infobutton5" src="5.jpg" width="8192" height="2025" />
+			<map name="infobutton5">			
+			<area shape="rect" coords="7480,6,7540,86" onclick="changeImage5()" />			
+			</map>
+	
+	
+			<script>
+			function changeImage5() {
+    			var image = document.getElementById('infobutton5');
+   				 if (image.src.match("5b")) {
+       			 image.src = "5.jpg";
+   				 } else {
+        		image.src = "5b.jpg";
+   				 }
+				}
+			</script>	
+
+
+			
+	</body>
+
+</html>

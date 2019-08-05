@@ -1,0 +1,1237 @@
+/* styles for Obergefell Family Tree */
+
+@font-face {
+	font-family: davisFont;
+	src: url('assets/Davisfont.ttf');
+}
+
+@font-face {
+	font-family: deutschFont;
+	src: url('assets/Deutsch.ttf');
+}
+
+body {
+	background-color: black;
+}
+
+h1 {
+	font-family: deutschFont;
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	}
+	
+h2 {
+	font-family: davisFont;
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	}
+	
+h3 {
+	font-family: davisFont;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	}
+
+.CenterImage {
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.comicTitle {
+	width: 300px;
+	background-color: black;
+	
+	display: block;
+	margin: auto;
+}
+
+.lightboxBaker {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightboxBaker img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+
+.lightboxBaker:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+
+.lightboxBarrows {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightboxBarrows img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+
+.lightboxBarrows:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+
+.lightboxBerea {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightboxBerea img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+
+.lightboxBerea:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+
+
+.lightboxBoyd {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightboxBoyd img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+
+.lightboxBoyd:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+
+.lightboxBrown {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightboxBrown img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+
+.lightboxBrown:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+
+.lightboxCasey {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightboxCasey img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+
+.lightboxCasey:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+
+.lightboxCruikshank {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightboxCruikshank img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+
+.lightboxCruikshank:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+
+.lightboxDeJonge {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightboxDeJonge img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+
+.lightboxDeJonge:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+
+
+.lightboxEisenstadt {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightboxEisenstadt img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+
+.lightboxEisenstadt:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+
+.lightboxGitlow {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightboxGitlow img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+
+.lightboxGitlow:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+
+
+.lightboxGriswold {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightboxGriswold img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+
+.lightboxGriswold:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+
+.lightboxLawrence {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightboxLawrence img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+
+.lightboxLawrence:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+
+.lightboxLoving {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightboxLoving img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+
+.lightboxLoving:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+
+.lightboxMcLaughlin {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightboxMcLaughlin img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+
+.lightboxMcLaughlin:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+
+.lightboxMcLaurin {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightboxMcLaurin img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+
+.lightboxMcLaurin:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+
+.lightboxMeyer {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightboxMeyer img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+
+.lightboxMeyer:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+
+.lightboxMoreno {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightboxMoreno img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+
+.lightboxMoreno:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+
+.lightboxNAACP {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightboxNAACP img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+
+.lightboxNAACP:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+
+.lightboxObergefell {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightboxObergefell img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+
+.lightboxObergefell:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+
+.lightboxPace {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightboxPace img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+
+.lightboxPace:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+
+.lightboxPierce {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightboxPierce img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+
+.lightboxPierce:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+
+.lightboxPlessy {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightboxPlessy img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+
+.lightboxPlessy:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+
+.lightboxSlaughterhouse {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightboxSlaughterhouse img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+
+.lightboxSlaughterhouse:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+
+.lightboxSosna {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightboxSosna img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+
+.lightboxSosna:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+
+.lightboxStromberg {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightboxStromberg img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+
+.lightboxStromberg:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+
+.lightboxSweatt {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightboxSweatt img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+
+.lightboxSweatt:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+
+.lightboxTruax {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightboxTruax img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+
+.lightboxTruax:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+
+.lightboxTurner {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightboxTurner img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+
+.lightboxTurner:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+
+.lightboxWindsor {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightboxWindsor img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+
+.lightboxWindsor:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+
+.lightboxZablocki {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightboxZablocki img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+
+.lightboxZablocki:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+
+.mapImage {
+	position: relative;
+	display: block;
+	margin: auto;
+}
+
+.thumbnailBaker {
+	position: absolute;
+  width: 137px;
+  left: 874px;
+  top: 813px;
+  opacity: 0;
+}
+
+.thumbnailBarrows {
+	position: absolute;
+  width: 137px;
+  left: 1644px;
+  top: 1131px;
+  opacity: 0;
+}
+
+.thumbnailBerea {
+	position: absolute;
+  width: 137px;
+  left: 1434px;
+  top: 33px;
+  opacity: 0;
+}
+
+.thumbnailBoyd {
+	position: absolute;
+  width: 137px;
+  left: 1396px;
+  top: 1461px;
+  opacity: 0;
+}
+
+.thumbnailBrown {
+	position: absolute;
+  width: 137px;
+  left: 410px;
+  top: 639px;
+  opacity: 0;
+}
+
+.thumbnailCasey {
+	position: absolute;
+  width: 137px;
+  left: 888px;
+  top: 1153px;
+  opacity: 0;
+}
+
+.thumbnailCruikshank {
+	position: absolute;
+  width: 137px;
+  left: 1684px;
+  top: 571px;
+  opacity: 0;
+}
+
+.thumbnailDeJonge {
+	position: absolute;
+  width: 137px;
+  left: 1450px;
+  top: 641px;
+  opacity: 0;
+}
+
+.thumbnailEisenstadt {
+	position: absolute;
+  width: 137px;
+  left: 1132px;
+  top: 1149px;
+  opacity: 0;
+}
+
+.thumbnailGitlow {
+	position: absolute;
+  width: 137px;
+  left: 1680px;
+  top: 279px;
+  opacity: 0;
+}
+
+.thumbnailGriswold {
+	position: absolute;
+  width: 137px;
+  left: 1196px;
+  top: 501px;
+  opacity: 0;
+}
+
+.thumbnailLawrence {
+	position: absolute;
+  width: 137px;
+  left: 1078px;
+  top: 863px;
+  opacity: 0;
+}
+
+.thumbnailLoving {
+	position: absolute;
+  width: 137px;
+  left: 686px;
+  top: 383px;
+  opacity: 0;
+}
+
+.thumbnailMcLaughlin {
+	position: absolute;
+  width: 137px;
+  left: 562px;
+  top: 73px;
+  opacity: 0;
+}
+
+.thumbnailMcLaurin {
+	position: absolute;
+  width: 137px;
+  left: 346px;
+  top: 1011px;
+  opacity: 0;
+}
+
+.thumbnailMeyer {
+	position: absolute;
+  width: 137px;
+  left: 1302px;
+  top: 1155px;
+  opacity: 0;
+}
+
+.thumbnailMoreno {
+	position: absolute;
+  width: 137px;
+  left: 682px;
+  top: 963px;
+  opacity: 0;
+}
+
+.thumbnailNAACP {
+	position: absolute;
+  width: 137px;
+  left: 1578px;
+  top: 1399px;
+  opacity: 0;
+}
+
+.thumbnailObergefell {
+	position: absolute;
+  width: 137px;
+  left: 964px;
+  top: 497px;
+  opacity: 0;
+}
+
+.thumbnailPace {
+	position: absolute;
+  width: 137px;
+  left: 388px;
+  top: 239px;
+  opacity: 0;
+}
+
+.thumbnailPierce {
+	position: absolute;
+  width: 137px;
+  left: 1236px;
+  top: 165px;
+  opacity: 0;
+}
+
+.thumbnailPlessy {
+	position: absolute;
+  width: 137px;
+  left: 170px;
+  top: 905px;
+  opacity: 0;
+}
+
+.thumbnailSlaughterhouse {
+	position: absolute;
+  width: 137px;
+  left: 1184px;
+  top: 1467px;
+  opacity: 0;
+}
+
+.thumbnailSosna {
+	position: absolute;
+  width: 137px;
+  left: 512px;
+  top: 961px;
+  opacity: 0;
+}
+
+.thumbnailStromberg {
+	position: absolute;
+  width: 137px;
+  left: 1684px;
+  top: 845px;
+  opacity: 0;
+}
+
+.thumbnailSweatt {
+	position: absolute;
+  width: 137px;
+  left: 176px;
+  top: 555px;
+  opacity: 0;
+}
+
+.thumbnailTruax {
+	position: absolute;
+  width: 137px;
+  left: 1438px;
+  top: 317px;
+  opacity: 0;
+}
+
+.thumbnailTurner {
+	position: absolute;
+  width: 137px;
+  left: 880px;
+  top: 187px;
+  opacity: 0;
+}
+
+.thumbnailWindsor {
+	position: absolute;
+  width: 137px;
+  left: 682px;
+  top: 669px;
+  opacity: 0;
+}
+
+.thumbnailZablocki {
+	position: absolute;
+  width: 137px;
+  left: 1058px;
+  top: 191px;
+  opacity: 0;
+}
+
+.lawrenceMap {
+	display: block;
+	margin: auto;
+	width: 1326px;
+	height: 960px;
+	position: relative;
+	left: -150px;
+}
+
+.lovingMap {
+	display: block;
+	margin: auto;
+	width: 761px;
+	height: 960px;
+	position: relative;
+	left: -668px;
+}
+
+.wholeMap {
+	display: block;
+	margin: auto;
+	width: 2000px;
+	height: 960px;
+	position: relative;
+	left: -150px;
+}
+
+.windsorMap {
+	display: block;
+	margin: auto;
+	width: 1326px;
+	height: 960px;
+	position: relative;
+	left: -150px;
+}
+
+

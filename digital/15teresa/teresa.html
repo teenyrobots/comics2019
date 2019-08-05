@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+	<title>Gratitude by Nan Teresa</title>
+	<link rel="shortcut icon" type="image/png" href="../../../../favicon.png">
+
+
+		<style>
+			body {
+				background-color:white;
+				text-align:center;
+			}
+			h1 {
+				font:Impact;
+				font-size:60px;
+				}
+			
+			.normal-img {
+				height:auto;
+				width:100%;
+				max-width:800px;
+			} 
+				
+			
+			table{
+				margin-left:auto;
+				margin-right:auto;
+		
+			}
+			
+		</style>
+		
+		<script type="text/javascript">
+		
+						
+			var HappySwap1=new Image()
+			HappySwap1.src="P2_S1_2.gif"
+			
+			var HappySwap2=new Image()
+			HappySwap2.src="P2_S3.gif"
+			
+			var HappySwap3=new Image()
+			HappySwap3.src="P2_S4.gif"
+		
+		
+			var SadSwap1=new Image()
+			SadSwap1.src="P3_S1.gif"
+			
+			var SadSwap2=new Image()
+			SadSwap2.src="P3_S2.gif"
+			
+			var SadSwap3=new Image()
+			SadSwap3.src="P3_S3.gif"
+		
+			var SadSwap4=new Image()
+			SadSwap4.src="P3_S4.gif"
+			
+			
+		</script>
+		
+	</head>
+
+	<body>
+		<img src="title.jpg"
+		name="page1"
+		alt="comic page 1"
+		width=800
+		class="normal-img">
+		
+		<br>
+		
+		<img src="P1_S1.gif"
+		name="page1"
+		alt="comic page 1"
+		width=800
+		class="normal-img">
+		
+		<br>
+		
+		<img src="P1_S2.jpg"
+		name="page1"
+		alt="comic page 2"
+		width=800
+		class="normal-img">
+		
+		<br>
+		
+		<table> 
+		
+			<tr>
+				<td>
+					<img src="P1_S3_01.jpg"
+					name="page1"
+					alt="panel 1"
+					width=314
+					onClick="Happy()">
+				</td>
+				
+				<td>
+					<img src="P1_S3_02.jpg"
+					name="page1"
+					alt="panel 2"
+					width=153>
+				</td> 
+						
+				<td>
+					<img src="P1_S3_03.jpg"
+					name="page1"
+					alt="panel 3"
+					width=329
+					onClick="Sad()">
+				</td>
+		
+			</tr>
+		</table>
+	
+	<br>
+<!-- bucket from here-->		
+		
+		<img src="bucket.jpg"
+		name="bucket1"
+		alt="happy-sad 1"
+		id="1"
+		width=800
+		class="normal-img"
+		onClick="changeSwap()">
+		
+		<br>
+		
+		<img src="bucket.jpg"
+		name="bucket2"
+		alt="happy-sad 2"
+		id="2"
+		width=800
+		class="normal-img">
+		
+		<br>
+		
+	
+		<img src="bucket.jpg"
+		name="bucket3"
+		alt="happy-sad 3"
+		id="3"
+		width=800
+		class="normal-img">
+		
+		<br>
+		
+		<img src="bucket.jpg"
+		name="bucket4"
+		alt="happy-sad 4"
+		id="4"
+		width=800
+		class="normal-img">		
+
+		<br>
+
+		<img src="bucket.jpg"
+		name="bucket5"
+		alt="happy 5"
+		id="5"
+		width=800
+		class="normal-img"		
+		onClick="window.location.reload()">
+
+		<br>
+
+
+	</body>
+
+	<script type="text/javascript">
+		var happyClick = false
+		
+		function Happy() {
+			happyClick=true;
+			document.getElementById('1').src = "P2_S1_2.gif"; 
+			document.getElementById('2').src = "P2_S5.gif"; 
+			document.getElementById('3').src = "P2_S6_7.jpg"; 
+			document.getElementById('4').src = "P2_S8.gif"; 
+			document.getElementById('5').src = "return.jpg"; 
+		} 
+
+		
+		
+		function Sad() {
+			document.getElementById('1').src = "P3_S1.gif"; 
+			document.getElementById('5').src = "return.jpg";
+		}		
+		
+		
+		
+	
+		
+		var x=1
+
+		function  changeSwap () {
+		
+			if(happyClick==true) {
+				if(!document.images)
+					return
+					document.images.bucket1.src=eval("HappySwap"+x+".src")
+					
+				if(x<3)
+					x++
+					
+				else
+					x=1
+					
+				}
+				
+			if(happyClick==false) {
+					if(!document.images)
+					return
+					document.images.bucket1.src=eval("SadSwap"+x+".src")
+					
+				if(x<4)
+					x++
+
+			}
+		
+		
+			}
+			
+
+	
+		
+		
+		
+		</script>
+
+</html>
+
+
+
+
+
+
+

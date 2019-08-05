@@ -1,0 +1,30 @@
+/* Stylesheet for CSS school summer */
+
+body {
+		background-color: white;
+		
+
+}
+.responsiveClass  {
+	width: 100%;
+	height: auto;
+	max-width: 900px;
+	
+	}
+
+.styleDiv {
+margin: auto;
+text-align; center;
+
+}
+
+h1	{
+	margin: auto;
+	text-align: center;
+}
+
+img	{
+display: block;
+margin: auto;
+width: auto;
+}

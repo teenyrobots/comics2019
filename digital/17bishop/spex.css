@@ -1,0 +1,308 @@
+
+/* Basic layout */
+
+html, body {
+	height: 100%;  /* necessary in order for sizing of fixed curse-meter to work */
+}
+
+.title {
+	text-align: center;
+}
+
+.column {
+	margin: 0 auto;
+	width: 830px;
+}
+
+.r1up, .r2up {
+	font-size: 0;  /* so whitespace between images won't take up space */
+	margin-top: 12px;
+	position: relative;
+	width: 100%;
+}
+
+.r2up > div {
+	display: inline-block;
+	vertical-align: top;
+	width: 400px;
+}
+
+.r2up > div + div {
+	left: 30px;
+	position: relative;
+}
+
+h1 {  /* h1 is used as a container for all caption images */
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+h1.r1up {
+	text-align: center;
+}
+
+.r2up h1 {
+	width: 400px;
+}
+
+.p1x1 {
+	width: 400px;
+	height: 400px;
+}
+
+.p2x1 {
+	width: 830px;
+	height: 400px;
+}
+
+.c1l {
+	width: 400px;
+	height: 36px;
+}
+
+.c2l {
+	width: 400px;
+	height: 70px;
+}
+
+.r1up .c1l, .r1up .c2l {
+	width: 830px;
+}
+
+.sp2 {
+	margin-top: 20px;
+}
+
+.sp3 {
+	margin-top: 80px;
+}
+
+.sp4 {
+	margin-top: 100px;
+}
+
+.title img {
+	height: 286px;
+}
+
+.bottom {
+	margin-top: 50px;
+}
+
+/* Trigger areas are clickable for some purpose, but aren't necessarily links */
+
+.popup-trigger, .overlay-trigger, .other-trigger {
+	cursor: pointer;
+	-webkit-touch-callout: none;  /* disables the iOS context menu when you press & hold */
+}
+
+a.popup-trigger, a.put-spex-on, a.take-spex-off {
+	display: inline-block;
+	position: absolute;
+	z-index: 6;
+}
+
+/* Popup images are triggered by a click */
+
+.has-popup {
+	position: relative;
+}
+
+.popup {
+	display: none;
+	position: absolute;
+	z-index: 10;
+}
+
+.popup.active {
+	cursor: pointer;
+	display: block;
+}
+
+.popup img {
+	height: auto;
+	width: auto;
+}
+
+/* Overlay images are triggered by a click, and completely replace the previous image. */
+
+.has-overlay {
+	position: relative;
+}
+
+.overlay {
+	cursor: pointer;
+	display: none;
+	left: 0;
+	position: absolute;
+	top: 0;
+	z-index: 10;
+}
+
+.overlay.active {
+	display: block;
+}
+
+/* Halo class just creates a link outline around a rectangular element */
+
+.halo {
+	outline-color: rgba(0, 255, 255, 0.0);
+	outline-width: 4px;
+	outline-style: none;
+}
+
+.halo:hover, body.halos-active .halo {
+	outline-style: solid;	
+}
+
+body.halos-active.halos-animate1 .halo {
+	outline-color: rgba(0, 255, 255, 0.3);
+}
+
+body.halos-active.halos-animate2 .halo {
+	outline-color: rgba(0, 255, 255, 0.6);
+}
+
+.halo:hover, body.halos-active .halo:hover, body.halos-active.halos-animate3 .halo {
+	outline-color: rgba(0, 255, 255, 1.0);
+}
+
+/* Halo images provide a link outline on hover, when the outline isn't just a box */
+
+.halo-image img {
+	height: auto;
+	width: auto;
+}
+
+.halo-image {
+	opacity: 0;
+	position: absolute;
+	z-index: 8;
+}
+
+.halo-image:hover, body.halos-active .halo-image {
+	cursor: pointer;
+}
+
+body.halos-active.halos-animate1 .halo-image {
+	opacity: 0.3;
+}
+
+body.halos-active.halos-animate2 .halo-image {
+	opacity: 0.6;
+}
+
+.halo-image:hover, body.halos-active .halo-image:hover, body.halos-active.halos-animate3 .halo-image {
+	opacity: 1.0;
+}
+
+.halo-image img {
+	height: auto;
+	width: auto;
+}
+
+/* Animated images are always superimposed on static backgrounds */
+
+.anim {
+	position: absolute;
+	z-index: 5;
+}
+
+.a-spex-med {
+	height: 17px;
+	width: 17px;
+}
+
+.a-spex-small {
+	height: 11px;
+	width: 11px;
+}
+
+/* Story logic */
+
+.part2, .part3, .if-cursed, .if-not-cursed {
+	display: none;
+}
+
+body.part2-unlocked .part2, body.part3-unlocked .part3 {
+	display: block;
+}
+
+body.cursed .if-cursed {
+	display: block;
+}
+
+body.not-cursed .if-not-cursed {
+	display: block;
+}
+
+body.curse-warning {
+    background-image: url('i/ax_warn_bg.gif');
+    background-repeat: repeat-x repeat-y;
+}
+
+body.curse-warning.warnings-2 {
+    background-image: url('i/ax_warn_bg.gif?step=2');
+}
+
+body.curse-warning.warnings-3 {
+    background-image: url('i/ax_warn_bg.gif?step=3');
+}
+ 
+body.curse-happening {
+    background-image: url('i/ax_curse_bg.gif');
+    background-repeat: repeat-x repeat-y;
+}
+
+#curse-meter {
+	display: none;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 10px;
+	height: 100%;
+	outline: 1px solid #844;
+	background-color: #fff;
+}
+
+#curse-progress {
+	position: absolute;
+	height: 0;
+	width: 10px;
+	bottom: 0px;
+	left: 0px;
+	background-color: #f66;
+}
+
+body.spex-on #curse-meter {
+	display: block;
+}
+
+/* Rules for specific elements */
+
+#p04.step1 #p04o_hand_1 {
+	display: block;
+}
+
+#p04.step2 #p04o_hand_2 {
+	display: block;
+}
+
+#pc30 {
+	height: 562px;
+}
+
+.footer {
+	margin: 40px 0;
+	text-align: center;
+}
+
+.restart-link {
+	display: inline-block;
+}
+
+.restart-link:hover {
+	background-color: cyan;
+}

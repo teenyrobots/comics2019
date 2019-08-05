@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+	
+	<title>Morning Melody by Ashley Guillory</title>
+	<link rel="shortcut icon" type="image/png" href="../../../../favicon.png">
+		
+		<audio id="tapping" src="tappingloop.mp3">
+		</audio>
+		<audio id="blow" src="blowagain.mp3">
+		</audio>
+		<audio id="la" src="lala.mp3">
+		</audio>
+		<audio id="augh" src="augh.mp3">
+		</audio>
+	
+		<style>
+		
+			body {
+				background-color:#white;
+				text-align: center;
+			}
+		
+		.normal-img {
+		
+			height:auto;
+			width:100%;
+			max-width:800px; 
+		
+		}
+		
+		</style>
+
+	</head>
+	
+	<body>
+	
+		<img src="1.gif"
+		name="page1"
+		alt="comic page 1"
+		width=800 
+		height=auto
+		id="page1"
+		onClick=playTap()
+		>
+		<br>    
+		
+		<img src="2.gif"
+		name="page2"
+		alt="comic page 2"
+		width=800 
+		height=auto
+		id="page2"
+		onClick=playBlow()
+		
+		>
+		<br>    
+		
+		<img src="3.gif"
+		name="page3"
+		alt="comic page 3"
+		width=800 
+		height=auto
+		id="page3"
+		onClick=playLa()
+		>
+		<br>    
+		
+		<img src="4.gif"
+		name="page4"
+		alt="comic page 4"
+		width=800 
+		height=auto
+		id="page4"
+		onClick=playAugh()
+		>
+		
+		
+	</body>
+	
+	<script type="text/javascript">
+		var tapPlaying=false;
+		var blowPlaying=false;
+		var laPlaying=false;
+		var aughPlaying=false;
+		
+		function playTap(){
+		
+		if (tapPlaying == false) { 
+		
+			document.getElementById('tapping').play();
+			tapPlaying = true;
+			}
+		if (laPlaying ==true){
+			document.getElementById('la').pause();
+			laPlaying=false;
+			}
+		if (blowPlaying ==true) {
+			document.getElementById('blow').pause();
+			blowPlaying= false; }
+		}
+		
+		function playBlow(){
+		
+			if (tapPlaying ==true){
+				document.getElementById('tapping').pause();
+				tapPlaying=false;
+				}
+			if (laPlaying ==true){
+				document.getElementById('la').pause();
+				laPlaying=false;
+				}
+			if (blowPlaying == false){
+				document.getElementById('blow').play();
+				blowPlaying = true;
+			}
+			
+		}
+			
+		function playLa(){
+		
+			if (tapPlaying ==true){
+				document.getElementById('tapping').pause();
+				tapPlaying=false;
+				}
+			if (blowPlaying == true){
+				document.getElementById('blow').pause();
+				blowPlaying = false;
+			}
+			if (laPlaying ==false){
+				document.getElementById('la').play();
+				laPlaying=true;
+				}
+		}
+			
+		function playAugh(){
+		
+			if (tapPlaying ==true){
+				document.getElementById('tapping').pause();
+				tapPlaying=false;
+				}
+			if (laPlaying ==true){
+				document.getElementById('la').pause();
+				laPlaying=false;
+				}
+			if (blowPlaying == true){
+				document.getElementById('blow').pause();
+				blowPlaying = false;
+				}
+			if (aughPlaying == false){
+				document.getElementById('augh').play();
+				blowPlaying = true;
+			}
+		
+		}
+
+	 </script>
+
+</html>

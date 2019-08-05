@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+
+<html>
+
+
+
+	<head><title>The Crystal Ball - by Koak</title>
+		
+		
+		<script src="pg2.js"></script>
+		<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://use.fontawesome.com/8362cf984d.js"></script>
+		<link rel="shortcut icon" type="image/png" href="../../../favicon.png">
+
+		
+		
+		
+<style>
+
+/*----------- This sets the background img & elimates padding -----------*/
+
+
+.bg { 
+	background: url(img/02/b.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
+	}
+	
+img {
+    width: 100%;
+    height: auto;
+}
+	
+html, body {
+	margin:0;
+	padding:0;
+	background-color:#000;
+	}
+
+audio { 
+   display:none;
+}
+
+/*----------- This sets position of the background img elements -----------*/
+	
+	
+#soundButton {
+	width: 25px;
+	cursor: hand;
+}
+
+	
+#b1 {
+	width: 33%;
+	position: fixed; 
+	left:0;
+	}
+	
+#b2-a {
+	width: 33%;
+	position: fixed; 
+	top: 0px;
+	right:0px;
+	}
+
+#b2-b {
+	width: 20%;
+	position: fixed; 
+	bottom: 0px;
+	left:13%;
+	}
+	
+	
+/*----------- This positions the background img elements in z index -----------*/
+	
+.soundButton:hover {
+	z-index: 100;
+  	position: relative;
+  	color:blue;
+	}
+
+.scrollingPanels {
+   z-index: 10;
+   position: relative;
+	}
+
+.b1 {
+   z-index: 8;
+  position: relative;
+	}
+	
+.b2 {
+   z-index: 6;
+   position: relative;
+	}
+
+
+/*----------- This styles the panel spacing & sets initial panel img -----------*/
+	
+	
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+	}
+
+
+.spacing-1{
+	padding-top: 60%;
+	padding-bottom: 0%;
+	padding-left: 10%;
+	padding-right: 35%;
+	}
+
+.spacing-2{
+	padding-bottom: 0%;
+	padding-left: 7%;
+	padding-right: 7%;
+	}
+	
+
+.spacing-3{
+	padding-bottom: 0%;
+	padding-left: 0%;
+	padding-right: 0%;
+	}
+	
+
+/* PRELOADER - STYLE */
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #ebe7e7;
+  border-radius: 50%;
+  border-top: 16px solid #ffa3d3;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+  }
+  
+
+  .jump {z-index: 120; position: fixed; right:1%;top:2%; cursor: hand; }
+  .jump a {color:white; text-decoration: none; font-size: 1.2rem; padding-bottom: 5px;}
+  .jump a:hover {color:yellow;}
+  
+    .continueButton {min-width: 100%; width:100%;}
+  .continueButton:hover {-webkit-filter: invert(100%) !important;}
+/* ----------- END STYLE SHEET ----------- */
+
+
+</style>
+	</head>
+	
+	
+	
+
+
+
+
+
+
+<! ----------- HTML ----------- --!>
+	
+	
+<! ----------- LOADER BAR ----------- --!>
+		
+		
+	<body onload="siteLoader()" style="margin:0;">
+		<div id="loader"></div>
+		
+		<div style="display:none;" id="myDiv" class="w3-animate-opacity bg" ><! ----------- ENTIRE PAGE FOR LOADING GOES AFTER THIS DIV!! ----------- --!>
+		
+		
+<! ----------- MENU BAR: NAVIGATION & SOUND BUTTONS ----------- --!>
+
+
+
+<div class="jump">
+	<! ----------- SOUND BUTTON ----------- --!>
+			<img id="soundButton" src="img/02/sound.gif" id="soundButton" onClick="playSound()" >
+		<br>
+		<br>
+	<! ----------- NAVIGATION BUTTONS ----------- --!>
+			<a href="#no1"><i class="fa fa-circle" aria-hidden="true"></i></a><br />
+			<a href="#no2"><i class="fa fa-circle" aria-hidden="true"></i></a><br />
+			<a href="#no3a"><i class="fa fa-circle" aria-hidden="true"></i></a><br />
+			<a href="#no3b"><i class="fa fa-circle" aria-hidden="true"></i></a><br />
+			<a href="#no4"><i class="fa fa-circle" aria-hidden="true"></i></a><br />
+			<a href="#no5"><i class="fa fa-circle" aria-hidden="true"></i></a><br />
+			<a href="#no6"><i class="fa fa-circle" aria-hidden="true"></i></a><br />
+			<a href="#no7"><i class="fa fa-circle" aria-hidden="true"></i></a><br />
+		<br />
+	<! ----------- SOUND BUTTON ----------- --!>	
+</div>
+
+
+<! ----------- LAYERED BACKGROUND ----------- --!>
+		
+		<div class="b1">
+			<img id="b1" src="img/02/b1.gif">
+		</div>	
+		
+		<div class="b2">
+			<img id="b2-a" src="img/02/b2-a.gif">
+			<img id="b2-b" src="img/02/b2-b.gif">
+		</div>	
+		
+<! ----------- END LAYERED BACKGROUND ----------- --!>
+
+
+		
+<! ----------- BEGIN PANELS ----------- --!>	
+
+	
+	<div class="scrollingPanels">
+		
+		<div class="spacing-1" id="no1"> <! ------ button to panel ------ --!>
+			
+			<img src="img/02/p1.gif">
+			
+		</div>
+		
+		<div class="spacing-2" id="no2"> <! ------ button to panel ------ --!>
+			
+			<img src="img/02/p2.gif">
+			
+		</div>
+		
+		<div class="spacing-3" id="no3a"> <! ------ button to panel ------ --!>
+			
+			<img src="img/02/p3a-1450.gif">
+			
+		</div>
+		
+		<div class="spacing-3" id="no3b"> <! ------ button to panel ------ --!>
+			<img src="img/02/p3b-1450.gif">
+		</div>
+		
+		<div class="spacing-3">
+			<img src="img/02/p3c-1450.gif">
+		</div>
+		
+		<div class="spacing-3" id="no4"> <! ------ button to panel ------ --!>
+			
+			<img src="img/02/p4-1450.gif">
+			
+		</div>		
+		
+		<div class="spacing-3" id="no5"> <! ------ button to panel ------ --!>
+			
+			<img src="img/02/p5-1450.gif">
+			
+		</div>		
+
+		<div class="spacing-3" id="no6"> <! ------ button to panel ------ --!>
+			
+			<img src="img/02/p6-1450.gif">
+			
+		</div>		
+
+		<div class="spacing-3">
+			
+			<img src="img/02/p7-1450.gif">
+			<div id="no7"></div> <! ------ button to the bottom of panel ------ --!>	
+			
+		</div>		
+		
+			
+				<div class="spacing-3">
+		
+			<a href="pg3.html">
+			<img class="continueButton" src="img/01/nextbutton.gif">
+			</a>
+			
+		</div>
+		
+		
+	</div><! ----------- ENTIRE PAGE FOR LOADING GOES BEFORE THIS DIV!! ----------- --!>
+		
+
+<! ----------- END PANELS ----------- --!>	
+
+<! ----------- AUDIO ----------- --!>	
+
+
+<audio id="cooper1"><source src="http://www.alterspace.co/koak/Cooper/mcbean2.mp3" type="audio/mpeg"></audio>
+
+
+<! ----------- END AUDIO ----------- --!>	
+
+<! ----------- JAVA LOADER ----------- --!>	
+
+	<script>
+	
+var myVar;
+
+function siteLoader() {
+    myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+ 
+ 
+$('a[href^="#"]').on('click', function(event) {
+
+var target = $(this.getAttribute('href'));
+
+if( target.length ) {
+   event.preventDefault();
+   $('html, body').stop().animate({
+   scrollTop: target.offset().top
+   }, 5000);
+}
+
+});
+
+</script>
+
+<! ----------- JAVA LOADER CLOSE ----------- --!>	
+
+	</body>
+</html>

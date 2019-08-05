@@ -1,0 +1,45 @@
+/* Stylesheet for CSS demo in Digital Comics 2016 */
+
+body {
+ margin:0;
+
+}
+
+/*img {
+	width: 600px;
+	height: auto;
+}*/
+
+/*.imageWidthClass {
+	width: 600px;
+	height: auto;
+}*/
+
+	
+
+.infiniteCanvas {
+	width: 5150px;
+	float:left;
+}
+	
+
+.infinteCanvasComics {
+	text-align:center;
+}
+
+.infiniteCanvas img {
+	height: 1000px;
+	width:auto;
+}
+
+.forwardNav {
+	text-align: right;
+}
+
+.noSpace img {
+	float: left;
+	}
+	
+.myBlockClass img {
+	display: block;
+}

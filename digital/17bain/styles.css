@@ -1,0 +1,159 @@
+/* css for cafe comic */
+
+body {
+	background-color: #8a8c8b;
+}
+
+a {
+	color: white;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: pink;
+}
+
+/* selected link */
+a:active {
+    color: black;
+}
+
+.cryptexLeft img {
+	max-height: 100%;
+	margin-right: 20px;
+	margin-left: 50px;
+}
+
+.cryptexRight img {
+	margin-left: 50px;
+	max-height: 100%;
+}
+
+
+.doorContainer {
+	width: 100%;
+	max-width: 2000px;
+	display: block;
+	margin: auto;
+	right: 20px;
+}
+
+.leftimg {
+	max-width: 40%;
+	display: inline-block;
+	display: center;
+	max-height: 1500px;
+	float: left;
+	margin-top: 0px;	
+}
+
+.middleimg {
+	max-width: 20%;
+	display: inline-block;
+	display: center;
+	max-height: 1500px;
+	float: left;
+	margin-top: 0px;
+}
+
+.rightimg {
+	max-width: 40%;
+	display: inline-block;
+	display: center;
+	max-height: 1500px;
+	float: left;
+	margin-top: 0px;
+}
+
+.intro img {
+	display: block;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+.foundPopup {
+	position: absolute;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 15%;
+}
+
+.mainContainer {
+	width: 100%;
+	display: flex;
+	overflow: hidden;
+	height: 100vh;
+}
+
+.scroll1, .scroll2, .scroll3, .scroll4, .scroll5 {
+	padding: 0px;
+	margin: 0px;
+	background-color: #8a8c8b;
+	height: auto;
+	width: 400px;
+	overflow: auto;
+}
+
+.scroll1 img {
+	max-width: 100%;
+	float: left;
+	clear: both;
+}
+
+.scroll2 img {
+	max-width: 100%;
+	float: left;
+	clear: both;
+}
+
+.scroll3 img {
+	max-width: 100%;
+	float: left;
+	clear: both;
+}
+
+.scroll4 img {
+	max-width: 100%;
+	float: left;
+	clear: both;
+}
+
+.scroll5 img {
+	max-width: 100%;
+	float: left;
+	clear: both;
+}
+
+.outro img{
+	display: block;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+.footer {
+	font-family: "IM Fell English";
+	color: white;
+	font-variant: small-caps;
+	text-align: center;
+	font-size: 18px;
+	letter-spacing: 20px;
+	background-color: #8a8c8b;
+	height: 100px;
+	
+	position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+	
+}

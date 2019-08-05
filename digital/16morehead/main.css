@@ -1,0 +1,44 @@
+/*The Style Sheet for day 9 lesson */
+
+.mainContainer {
+	width: 100%;
+	max-width: 1000px;
+	display: block;
+	
+	}
+	
+	.mainContainer img {
+	width: 100%;
+	max-width: 1000px;
+	display: block;
+	
+	}
+	
+/*img {
+		width: 600px;
+		height: auto;
+}*/
+
+.imageWidthClass {
+	width: 100px;
+	height; auto;
+}
+
+.forwardNav {
+	float: right;
+}
+
+.backwardNav {
+	float: left;
+}
+
+.infinitecanvas {
+	width: 100%;
+	max-width: 1000px;
+	
+}
+
+.centerNav {
+	text-align: center;
+}
+

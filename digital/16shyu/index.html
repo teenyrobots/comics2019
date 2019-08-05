@@ -1,0 +1,81 @@
+<!-- Responsive Comic Book Layout: http://codepen.io/chris22smith/pen/MyBBOe -->
+
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+		<title>Responsive Comics</title>
+
+		<link href="comics.css" rel="stylesheet" media="all">
+		<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/clear-sans" type="text/css"/>
+		<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/comic-relief" type="text/css"/>
+		<link rel="shortcut icon" type="image/png" href="../../../favicon.png">
+
+	</head>
+
+	<body>
+
+		<!--COMICS!-->
+
+		<article class="comic">
+			<div class="panel panel1">
+				<h1>A walk in the city <i>by Wei-Ching Shyu</i></h1>
+				<p>This is a responsive comic that works in all resolution. Change your browser window size and see.
+				<br />
+				Click <b>&sung;</b> symbol to play sound.</p>
+			</div>
+			<div class="panel panel2">
+				<p class="text top-left">It was a regular night, when I received a phone call.</p>
+				<img src="images/trafficlight.gif" width="400" height="400">
+			</div>
+			<div class="panel panel3">
+				<audio id="phone" src="phone.mp3" preload="auto"></audio>
+				<p class="speech sound"><a href="javascript:playPhoneSound();">&sung;</a></p>
+				<script type="text/javascript">
+					function playPhoneSound() {
+					document.getElementById('phone').play();
+					}
+				</script>
+			</div>
+			<div class="panel panel4">
+				<p class="speech">Hey!</p>
+				<!-- <p class="text bottom-right">Character answers the phone</p> -->
+			</div>
+			<div class="panel panel5">
+				<p class="speech">How was your trip?</p>
+			</div>
+			<div class="panel panel6">
+				<p class="text top-left">I haven't seen Nathan for a while. I know he has to sort out some family thing.</p>
+			</div>
+			<div class="panel panel7">
+				<p class="speech">Good to know you're doing well.</p>
+			</div>
+			<div class="panel panel8">
+				<audio id="car" src="car.mp3" preload="auto"></audio>
+				<p class="speech sound"><a href="javascript:playCarSound();">&sung;</a></p>
+				<script type="text/javascript">
+					function playCarSound() {
+					document.getElementById('car').play();
+					}
+				</script>
+			</div>
+			<div class="panel panel9">
+				<p class="speech">Sorry I didn't hear you.</p>
+			</div>
+			<div class="panel panel10">
+				<p class="speech">Oh. You have a job for me? <b>Great!</b></p>
+			</div>
+			<div class="panel panel11">
+				<p class="speech">You want me to get to work <b>now?</b></p>
+				<p class="speech">Sure. I'll see you soon.</p>
+			</div>
+			<div class="panel panel12">
+				<p class="text bottom-right"><b>THE END</b></p>
+			</div>
+		</article>
+
+	</body>
+
+</html>

@@ -1,0 +1,11 @@
+/*Style Sheet for James and the Oak*/
+
+.imageWidthClass {
+	width: 1000px;
+	height; auto; 
+}
+
+.relativePosition {
+	position: relative;
+	left: 20px
+}

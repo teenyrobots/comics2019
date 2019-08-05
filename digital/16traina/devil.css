@@ -1,0 +1,16 @@
+/* this is your style sheet for devil */
+
+body {
+	background-color: black;
+	text-align: center;
+	
+	
+}	
+
+.responsiveClass img{
+	margin: auto;
+	display: block;
+	width: 100%;
+	height: auto;
+	max-width: 800px;
+}

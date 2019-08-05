@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,200,300,400,700" rel="stylesheet">
+
+    <title></title>
+
+    <link href="index.css" rel="stylesheet"/>
+    <link rel="shortcut icon" type="image/png" href="images/ui/favicon.png" />
+
+</head>
+
+
+<body id="ThesisBody">
+
+
+<noscript>
+    You need to enable JavaScript to run this app.
+</noscript>
+
+
+
+<div id="header">
+   <div id="stickyHeader">
+        <a href="/">
+            <img src='/images/ui/comicsLogo.svg' id="comics" alt="CCA MFA in Comics"/>
+        </a>
+        <a href="/">
+            <img src='images/ui/ccaLogo.svg' id="cca" alt="CCA" />
+        </a>
+        <hr>
+        <div>
+           <h1 id="title"></h1>
+           <h2 id="byline" style="padding-bottom: 1em">by: </h2>
+        </div>
+    </div>
+
+</div>
+
+
+<div id="thesis" >
+    <div id="comic">
+
+        <!--student panels go here-->
+
+    </div>
+
+    <a href="/directory.html">
+        <div class="button" style="margin-top: 3em">
+            <p>back to anthology</p>
+        </div>
+    </a>
+</div>
+
+
+<div id="Footer">
+    <p>The California College of the Arts MFA in Comics Program offers an accredited low-residency graduate degree.
+    </p>
+    <a href="https://www.cca.edu/" target="_blank"><img src="images/ui/ccaLogo.svg"></a>
+    <a href="https://www.cca.edu/academics/graduate/comics" target="_blank"><img src="images/ui/comicsLogo.svg"></a>
+    <a href="https://www.facebook.com/ccamfacomics" target="_blank"><img src="images/ui/mfafb.png"></a>
+    <br>
+    <a href="https://www.cca.edu/admissions/apply" target="_blank">Apply Now</a> | <a href="https://www.cca.edu/admissions/info" target="_blank">Get Info</a>
+</div>
+
+
+
+<script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+
+
+
+<script>
+
+    function getParameterByName(name, url) {
+        if (!url) url = window.location.href;
+        name = name.replace(/[\[\]]/g, "\\$&");
+        var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                results = regex.exec(url);
+        if (!results) return null;
+        if (!results[2]) return '';
+        return decodeURIComponent(results[2].replace(/\+/g, " "));
+    }
+
+    // return jQueryObject
+    // --- makeStudentThesis calls this for each page
+    function makeThesisPage(imgUrl) {
+
+
+        var thesisPage = $('<div class="thesisPage"><img src="' + imgUrl + '"/></div>')
+
+        return thesisPage;
+    }
+
+
+
+    // takes student object, returns jQuery object to be attached to existing DOM body
+    function makeStudentThesis(student) {
+
+        document.title = student.thesisTitle + ' by ' + student.displayName;
+
+        var numberOfPagesPlusOne = student.thesisPages + 1;
+        var studentPath = student.thesisPath;
+
+        var thesisPage;
+
+        $('#title').append(student.thesisTitle);
+        $('#byline').append(student.displayName);
+
+
+
+        for (var i=1; i < numberOfPagesPlusOne ; i++){
+
+            filePath = '/images/thesis/' + studentPath + i + '.jpg';
+
+            thesisPage = makeThesisPage(filePath);
+
+            $('#comic').append(thesisPage);
+
+        }
+    }
+
+
+    $(document).ready(function() {
+
+        var studentSlug = getParameterByName('student');
+
+        $.getJSON('data/students.json', function(data) {
+
+            var allStudents = data.students;
+            var currentStudent;
+
+
+            for (var x=0; x < allStudents.length; x++) {
+                if (allStudents[x].slug === studentSlug) {
+                    currentStudent = allStudents[x];
+                    break;
+                }
+            }
+
+            if (currentStudent) {
+
+                makeStudentThesis(currentStudent)
+            }
+
+        });
+
+    });
+
+</script>
+
+
+</body>
+</html>

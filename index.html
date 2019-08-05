@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,200,300,400" rel="stylesheet">
+
+    <title>Comics MFA at CCA</title>
+
+    <link href="index.css" rel="stylesheet"/>
+    <link rel="shortcut icon" type="image/png" href="images/ui/favicon.png" />
+
+</head>
+
+
+<body>
+    <noscript>
+        You need to enable JavaScript to run this app.
+    </noscript>
+
+
+    <div id="header">
+        <div id="bigHeader">
+            <h3>california college of the arts</h3>
+            <img src='./images/ui/comicsLogo.svg' alt="CCA MFA in Comcis"/>
+        </div>
+    </div>
+
+
+    <div id="Landing">
+
+        <div class="note">
+            <h1>COMICS AT CCA</h1>
+            <p>Great comics are the product of great labor. Every cartoonist learns this the moment they commit to turning their flights of imagination into carefully crafted lines on the page. We’ve been incredibly lucky to watch our students make that commitment with us here at CCA.</p>
+
+            <p>When we set out to create CCA’s graduate comics program, we wanted to make a space where writers and artists could come together to support and challenge each other’s work.</p>
+
+            <p>Rather than bend their individual voices toward a common style, our graduate cohorts push each other to follow an authentic path for their work. The evidence of their success can be found on every page herein. With their attention to craft and their sights set on pushing the boundaries of the form, there’s no doubt the future of comics is in good hands. </p>
+
+            <p>At the end of their final year, our students have each produced a self-contained thesis project for print and a digital comic.</p>
+        </div
+
+    </div>
+
+    <a href="directory.html">
+        <div class="button" style="margin-bottom: 3em">
+            <p>view our body of student work</p>
+        </div>
+    </a>
+
+    <div id="Footer">
+        <p>The California College of the Arts MFA in Comics Program offers an accredited low-residency graduate degree.
+        </p>
+        <a href="https://www.cca.edu/" target="_blank"><img src="images/ui/ccaLogo.svg"></a>
+        <a href="https://www.cca.edu/academics/graduate/comics" target="_blank"><img src="images/ui/comicsLogo.svg"></a>
+        <a href="https://www.facebook.com/ccamfacomics" target="_blank"><img src="images/ui/mfafb.png"></a>
+        <br>
+        <a href="https://www.cca.edu/admissions/apply" target="_blank">Apply Now</a> | <a href="https://www.cca.edu/admissions/info" target="_blank">Get Info</a>
+        <p id="backgroundInfo">Background by <span id="luckyStudent"></span> from <a id="luckyThesis"><span id="luckyCartoon"></span></a></p>
+    </div>
+
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+
+    <script>
+
+        function setSplash(students) {
+            var rando = Math.floor(Math.random() * students.length);
+            var luckyStudent = students[rando];
+            console.log(rando);
+
+            var backgroundImg = "images/backgrounds/" + rando + ".jpg";
+            $('body').css('background-image', 'url(' + backgroundImg + ')');
+
+            $('#luckyStudent').append(luckyStudent.displayName);
+            $('#luckyCartoon').append(luckyStudent.thesisTitle);
+            $('#luckyThesis').attr('href', 'thesis.html?student=' + luckyStudent.slug);
+        }
+
+
+        $(document).ready(function() {
+
+            $.getJSON('data/students.json', function(data) {
+
+                //
+                // set background to random student art
+                //
+                var backgroundStudents = data.students.filter(function(student){
+                    return student.backgroundImage !== undefined;
+                });
+
+
+                setSplash(backgroundStudents);
+
+            });
+
+        });
+
+
+    </script>
+
+</body>
+
+</html>
+
+

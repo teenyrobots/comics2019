@@ -1,0 +1,17 @@
+/* styles for webcomic*/ 
+
+body {
+	background-color: #323331;
+	text-align: center;
+	
+}
+
+
+
+
+img {
+		display: block;
+		margin: auto;
+		width: 75%;
+		
+}

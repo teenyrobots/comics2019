@@ -1,0 +1,26 @@
+@font-face { 
+	font-family: yaelHand; src:url('images/Yael_hand_bold-Regular.ttf');
+}
+
+h1 {font-family: yaelHand;
+	font-size: 50px;
+	color:purple;
+}
+
+.responsiveComic{
+	overflow:scroll;
+	display:flex;	
+	
+}
+
+.responsiveComic img{
+	height: 100vh;
+	width: auto;
+	max-height: 700px;
+
+}
+
+.nav{
+position: absolute;
+right: 20px;
+}

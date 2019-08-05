@@ -1,0 +1,42 @@
+/*STYLE SHEET FOR DEATH COMIC*/
+/* margins/padding order = top right bottom left*/
+
+body {
+    background-color: #000;
+    color: #fff;
+    font: 16px Avantgarde, sans-serif;
+    margin: 50px 100px 50px 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff
+}
+
+a:hover { 
+    color: #707070;
+}
+
+p{
+	padding: 25px 25px 25px 25px;
+	text-align: center;
+}
+
+.comicMoving, .comicStatic img {
+	position: relative;
+	display: block;
+    margin: auto;
+    width: 100%;
+	height: auto;
+	max-width: 700px;
+}
+
+.comicMoving img {
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+.comicMoving img:first-child {
+	position: relative;
+}

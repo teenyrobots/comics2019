@@ -1,0 +1,62 @@
+/* styles for JQuery demo */
+
+body {
+     background-color: pink;
+}
+
+
+img{
+display: block;
+max-width: 800px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.parent {
+	position: relative;
+	width: 80%;
+	max-width: 2000px;
+	height: auto;
+}
+
+.parent img {
+	width: 100%;
+	max-width: 2000px;
+	position: absolute;
+}
+
+.child {
+	position: absolute;
+	background-color: ;
+	  width:  16vw;
+	  height: 16vw;
+}
+
+#puzzle1 {
+	top: 20vw;
+	left: 30vw;
+}
+
+#puzzle2 {
+    top: 15vw;
+	left: 20vw;
+}
+
+#puzzle3 {
+    top: 30vw;
+	left: 17vw;
+}	
+
+#puzzle4 {
+	top: 20vw;
+	left: 45vw;
+}
+
+.rightLink {
+	text-align: right;
+}
+	
+.specialImage {
+        background-color: pink;
+        padding: 1em;
+}

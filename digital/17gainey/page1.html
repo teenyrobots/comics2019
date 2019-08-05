@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<title>Map1</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript">    
+             window.history.forward();
+             function noBack() { 
+                  window.history.forward();
+            }
+        </script>
+	</head>
+	<body onload="noBack();" onpageshow="if (event.persisted) noBack();" onunload="">
+	
+		<div class="dontBreakUp">
+			<img src="assets/start.jpg">
+			
+			<img src="assets/action2.gif">
+			
+			<img src="assets/top2.jpg">
+		</div>
+		
+		<br>
+		
+		<div class="dontBreakUp">
+			<img src="assets/bottom1.gif"
+				usemap="keenMap"
+			>
+		</div>
+		
+		<map name="keenMap">
+			<area shape="rect"
+			coords="95, 81, 403, 304"
+			href="page3.html"
+			>
+			<area shape="rect"
+			coords="744, 36, 949, 173"
+			href="page2.html"
+			>
+			
+		</map>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+		
+	</body>
+</html>
