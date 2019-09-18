@@ -9,7 +9,7 @@
 
 body {
     
-    background-color: aquamarine;
+    background-color: #001840;
     text-align: center;
     font-family: Haleysfont;
     
@@ -40,9 +40,14 @@ a {
     
 }
 
+.nav {
+    
+    color: #DBDBDB
+}
+
 .nav :hover{
     
-    background-color:floralwhite;
+    background-color:#82589F;
     
 }
 

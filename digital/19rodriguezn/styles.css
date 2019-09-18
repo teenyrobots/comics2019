@@ -14,7 +14,7 @@
     
 }
 
-.clicker, .hoverLis, .hover {
+.clicker, .hoverLis, .hover, .knob {
     cursor: pointer;
 }
 
@@ -179,11 +179,11 @@ p {
 }
 
 .navDiv a img:hover {
-    background-color: darkslateblue;
+    background-color: lightslategrey;
 }
 
 .navDiv a img:active {
-    background-color: darkslategray;
+    background-color: lightsteelblue;
 }
 
 a {
@@ -194,13 +194,13 @@ a:link {
     color: white;
 }
 a:visited {
-    color: darkred;
+    color: #E91F26;
 }
 
 a:hover {
-    background-color: darkslateblue;
+    background-color: palevioletred;
 }
 
 a:active {
-    background-color: darkslategray;
+    background-color: orangered;
 }

@@ -6,8 +6,9 @@
 }
 
 body {
-    background-color: aquamarine;
+    background-color: slategrey;
     font-family: AlexFont;
+    text-align: center;
 }
 
 * {
@@ -31,6 +32,14 @@ body {
     
 }
 
+.musicDiv {
+    width: 100%;
+    max-width: 100px;
+    display: block;
+    margin: auto;
+    
+}
+
 .clicker {
     cursor: pointer;
 }
@@ -39,3 +48,33 @@ body {
     border: hotpink solid 10px;
 }
 
+ /*
+.fixedElement{
+    position: fixed;
+    padding: .5rem;
+    top: 1rem;
+    right: 17rem;
+    z-index: 1000;
+}
+*/
+
+
+
+.absolutePanel {
+    position: absolute;
+    top: 0;
+    left: 2rem;
+    z-index: 1000;
+
+}
+
+
+/* .navDiv {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 500px;
+    align-items: center;
+} */
+
+  

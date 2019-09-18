@@ -61,9 +61,9 @@ $(document).ready(function(){
     
     $(".knob").hover(
         function(){
-            $(this).attr("src", "assets/AsTheTideTurns_Pages_005knob2.png");
-        }, function(){
             $(this).attr("src", "assets/AsTheTideTurns_Pages_005knob.png");
+        }, function(){
+            $(this).attr("src", "assets/AsTheTideTurns_Pages_005knob2.png");
         });
     
     $("#button2,#button3,#button5,#button6").hover(

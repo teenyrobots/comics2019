@@ -412,6 +412,127 @@
       "digitalUrl": "",
       "thesisPath": "18watson/",
       "backgroundImage": "images/backgrounds/22.jpg"
+    },
+    {
+      "displayName": "Sierra Barnes",
+      "slug": "barnes",
+      "year": "2019",
+      "thesisPages": 11,
+      "thesisTitle": "Cлава || Glory",
+      "digitalTitle": "asdf",
+      "digitalUrl": "asdf",
+      "thesisPath": "19barnes/",
+      "backgroundImage": "images/backgrounds/22.jpg"
+    },
+    {
+      "displayName": "Alex Combs",
+      "slug": "combs",
+      "year": "2019",
+      "thesisPages": 15,
+      "thesisTitle": "asdf",
+      "digitalTitle": "asdf",
+      "digitalUrl": "asdf",
+      "thesisPath": "19combs/",
+      "backgroundImage": "images/backgrounds/22.jpg"
+    },
+    {
+      "displayName": "Samia Fakih",
+      "slug": "fakih",
+      "year": "2019",
+      "thesisPages": 21,
+      "thesisTitle": "asdf",
+      "digitalTitle": "asdf",
+      "digitalUrl": "asdf",
+      "thesisPath": "19fakih/",
+      "backgroundImage": "images/backgrounds/22.jpg"
+    },
+    {
+      "displayName": "Shuchita Mishra",
+      "slug": "mishra",
+      "year": "2019",
+      "thesisPages": 21,
+      "thesisTitle": "asdf",
+      "digitalTitle": "asdf",
+      "digitalUrl": "asdf",
+      "thesisPath": "19mishra/",
+      "backgroundImage": "images/backgrounds/22.jpg"
+    },
+    {
+      "displayName": "Breena Nuñez",
+      "slug": "nunez",
+      "year": "2019",
+      "thesisPages": 21,
+      "thesisTitle": "asdf",
+      "digitalTitle": "asdf",
+      "digitalUrl": "asdf",
+      "thesisPath": "19nunez/",
+      "backgroundImage": "images/backgrounds/22.jpg"
+    },
+    {
+      "displayName": "Kameron Peck",
+      "slug": "peck",
+      "year": "2019",
+      "thesisPages": 20,
+      "thesisTitle": "asdf",
+      "digitalTitle": "asdf",
+      "digitalUrl": "asdf",
+      "thesisPath": "19peck/",
+      "backgroundImage": "images/backgrounds/22.jpg"
+    },
+    {
+      "displayName": "Maxi Rodriguez",
+      "slug": "rodriguezm",
+      "year": "2019",
+      "thesisPages": 26,
+      "thesisTitle": "asdf",
+      "digitalTitle": "asdf",
+      "digitalUrl": "asdf",
+      "thesisPath": "19rodriguezm/",
+      "backgroundImage": "images/backgrounds/22.jpg"
+    },
+    {
+      "displayName": "Nicky Rodriguez",
+      "slug": "rodriguezn",
+      "year": "2019",
+      "thesisPages": 17,
+      "thesisTitle": "asdf",
+      "digitalTitle": "asdf",
+      "digitalUrl": "asdf",
+      "thesisPath": "19rodriguezn/",
+      "backgroundImage": "images/backgrounds/22.jpg"
+    },
+    {
+      "displayName": "Samuel Soto-Saines",
+      "slug": "sotosaines",
+      "year": "2019",
+      "thesisPages": 24,
+      "thesisTitle": "asdf",
+      "digitalTitle": "asdf",
+      "digitalUrl": "asdf",
+      "thesisPath": "19sotosaines/",
+      "backgroundImage": "images/backgrounds/22.jpg"
+    },
+    {
+      "displayName": "Haley Spaeth",
+      "slug": "spaeth",
+      "year": "2019",
+      "thesisPages": 14,
+      "thesisTitle": "asdf",
+      "digitalTitle": "asdf",
+      "digitalUrl": "asdf",
+      "thesisPath": "19spaeth/",
+      "backgroundImage": "images/backgrounds/22.jpg"
+    },
+    {
+      "displayName": "Sean Timm",
+      "slug": "timm",
+      "year": "2019",
+      "thesisPages": 18,
+      "thesisTitle": "asdf",
+      "digitalTitle": "asdf",
+      "digitalUrl": "asdf",
+      "thesisPath": "19timm/",
+      "backgroundImage": "images/backgrounds/22.jpg"
     }
   ]
 }
