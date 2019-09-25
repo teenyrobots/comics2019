@@ -419,120 +419,120 @@
       "year": "2019",
       "thesisPages": 11,
       "thesisTitle": "Cлава || Glory",
-      "digitalTitle": "asdf",
-      "digitalUrl": "asdf",
+      "digitalTitle": "Graze",
+      "digitalUrl": "19barnes/index.html",
       "thesisPath": "19barnes/",
-      "backgroundImage": "images/backgrounds/22.jpg"
+      "backgroundImage": 23
     },
     {
       "displayName": "Alex Combs",
       "slug": "combs",
       "year": "2019",
       "thesisPages": 15,
-      "thesisTitle": "asdf",
-      "digitalTitle": "asdf",
-      "digitalUrl": "asdf",
+      "thesisTitle": "Magical Boys",
+      "digitalTitle": "Magical Boys vs Zombies",
+      "digitalUrl": "19combs/index.html",
       "thesisPath": "19combs/",
-      "backgroundImage": "images/backgrounds/22.jpg"
+      "backgroundImage": 24
     },
     {
       "displayName": "Samia Fakih",
       "slug": "fakih",
       "year": "2019",
       "thesisPages": 21,
-      "thesisTitle": "asdf",
-      "digitalTitle": "asdf",
-      "digitalUrl": "asdf",
+      "thesisTitle": "Glitch",
+      "digitalTitle": "Neon Fruits",
+      "digitalUrl": "19fakih/index.html",
       "thesisPath": "19fakih/",
-      "backgroundImage": "images/backgrounds/22.jpg"
+      "backgroundImage": 25
     },
     {
       "displayName": "Shuchita Mishra",
       "slug": "mishra",
       "year": "2019",
       "thesisPages": 21,
-      "thesisTitle": "asdf",
-      "digitalTitle": "asdf",
-      "digitalUrl": "asdf",
+      "thesisTitle": "Third Groundation",
+      "digitalTitle": "Runaway Train",
+      "digitalUrl": "19mishra/index.html",
       "thesisPath": "19mishra/",
-      "backgroundImage": "images/backgrounds/22.jpg"
+      "backgroundImage": 26
     },
     {
       "displayName": "Breena Nuñez",
       "slug": "nunez",
       "year": "2019",
       "thesisPages": 21,
-      "thesisTitle": "asdf",
-      "digitalTitle": "asdf",
-      "digitalUrl": "asdf",
+      "thesisTitle": "Enjoy This Burger: <br> A Collection Of Comics",
+      "digitalTitle": "You Can't Hate It Until You Love It",
+      "digitalUrl": "19nunez/index.html",
       "thesisPath": "19nunez/",
-      "backgroundImage": "images/backgrounds/22.jpg"
+      "backgroundImage": 27
     },
     {
       "displayName": "Kameron Peck",
       "slug": "peck",
       "year": "2019",
       "thesisPages": 20,
-      "thesisTitle": "asdf",
-      "digitalTitle": "asdf",
-      "digitalUrl": "asdf",
+      "thesisTitle": "F*ck Boy & The Re-B elles: Cookie Thumper",
+      "digitalTitle": "F*ck Boy & The Re-Belles",
+      "digitalUrl": "19peck/index.html",
       "thesisPath": "19peck/",
-      "backgroundImage": "images/backgrounds/22.jpg"
+      "backgroundImage": 28
     },
     {
       "displayName": "Maxi Rodriguez",
       "slug": "rodriguezm",
       "year": "2019",
       "thesisPages": 26,
-      "thesisTitle": "asdf",
-      "digitalTitle": "asdf",
-      "digitalUrl": "asdf",
+      "thesisTitle": "Chronicles Of A <br> Chubby Bunny",
+      "digitalTitle": "Dating A Med Student",
+      "digitalUrl": "19rodriguezm/index.html",
       "thesisPath": "19rodriguezm/",
-      "backgroundImage": "images/backgrounds/22.jpg"
+      "backgroundImage": 29
     },
     {
       "displayName": "Nicky Rodriguez",
       "slug": "rodriguezn",
       "year": "2019",
       "thesisPages": 17,
-      "thesisTitle": "asdf",
-      "digitalTitle": "asdf",
-      "digitalUrl": "asdf",
+      "thesisTitle": "The Second Sun",
+      "digitalTitle": "As The Tide Turns",
+      "digitalUrl": "19rodriguezn/index.html",
       "thesisPath": "19rodriguezn/",
-      "backgroundImage": "images/backgrounds/22.jpg"
+      "backgroundImage": 30
     },
     {
       "displayName": "Samuel Soto-Saines",
       "slug": "sotosaines",
       "year": "2019",
       "thesisPages": 24,
-      "thesisTitle": "asdf",
-      "digitalTitle": "asdf",
-      "digitalUrl": "asdf",
+      "thesisTitle": "Silence In Shadow <br> Truth In Blood",
+      "digitalTitle": "Ballad of Daedalus",
+      "digitalUrl": "19sotosaines/index.html",
       "thesisPath": "19sotosaines/",
-      "backgroundImage": "images/backgrounds/22.jpg"
+      "backgroundImage": 31
     },
     {
       "displayName": "Haley Spaeth",
       "slug": "spaeth",
       "year": "2019",
       "thesisPages": 14,
-      "thesisTitle": "asdf",
-      "digitalTitle": "asdf",
-      "digitalUrl": "asdf",
+      "thesisTitle": "Questline",
+      "digitalTitle": "Maggie's Magic Shop",
+      "digitalUrl": "19spaeth/index.html",
       "thesisPath": "19spaeth/",
-      "backgroundImage": "images/backgrounds/22.jpg"
+      "backgroundImage": 32
     },
     {
       "displayName": "Sean Timm",
       "slug": "timm",
       "year": "2019",
       "thesisPages": 18,
-      "thesisTitle": "asdf",
-      "digitalTitle": "asdf",
-      "digitalUrl": "asdf",
+      "thesisTitle": "Second Horizon",
+      "digitalTitle": "At The Mountain Of Feathers",
+      "digitalUrl": "19timm/index.html",
       "thesisPath": "19timm/",
-      "backgroundImage": "images/backgrounds/22.jpg"
+      "backgroundImage": 33
     }
   ]
 }

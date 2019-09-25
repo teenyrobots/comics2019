@@ -184,7 +184,6 @@
                 // make student cards
                 //
                 data.students.map(function(student) {
-                    console.log(student.slug);
                     var studentCard = makeStudentCard(student);
                     var classCardId = "#cards" + student.year;
                     $(classCardId).append(studentCard);

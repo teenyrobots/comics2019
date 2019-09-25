@@ -1,21 +1,103 @@
+/* Here are the styles for my CSS demo */
 
+@font-face {
+  font-family: "Bijak";
+  src: url("fonts/Bijak.ttf");
+}
 
-  .navDiv {
-    width: 100%;
-    max-width: 600px;
-    margin: auto;
-    position: relative;
-  }
+body {
+    
+    font-family: "Bijak";
+    
+    background-color: #F3E0FA; /* property values always end with a ; */
+    margin: 0;
+    /*background-image: url("assets/4.jpg");*/ /* adding image to background */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* keeps it in one place */
+    box-sizing: border-box;  
+    
+    }
 
 .toolslinks {
     width: 100%;
-    max-width: 10rem;
-    background-color: green;
-    position: relative;
+    max-width: 1000px;
 }
 
-.toolslinks img {
-  width: 100%;
-  margin: 0;
-  padding: 0;
+.iconInstruct {
+    width: 100%;
+    max-width: 600px;
+}
+
+.navDiv {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+
+.navDivtools {
+    width: 100%;
+    max-width: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: auto;
+    /*margin-bottom: .75rem;*/
+    padding: 0rem;
+    /*background-color:*/  /* padding color */
+      
+}
+
+
+
+.clicker {
+    cursor: pointer;
+}
+
+h1 {
+    color: #504371;
+    font-size: 5rem;
+    background-color: #F3E0FA;
+    width: 100%;
+    max-width: 550px;
+    margin: auto;
+    text-align: center;
+}
+
+
+p{
+    color: #504371;
+    font-size: 1rem;
+    text-align: center;
+    
+    
+}
+
+a {
+    padding: .5rem;
+}
+
+a:link {
+    color: darkorchid;
+}
+
+a:visted {
+    color: forestgreen;
+}
+
+/* a:hover {
+    background-color: aqua;
+} */
+
+a:active {
+    background-color: rebeccapurple
 }

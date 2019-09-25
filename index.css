@@ -234,7 +234,7 @@ p {
     width: 235px;
     max-width: 95%;
     margin: auto;
-    bottom: 1em;
+    bottom: .5em;
     text-transform: uppercase;
     border: solid 1px white;
 }
