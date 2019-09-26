@@ -66,13 +66,14 @@ $("#gauntlet").hide();
 
 
 var waypoint = new Waypoint({
+	
 	  element: document.getElementById('rumble'),
 	  handler: function() {
 	   //  notify('Basic waypoint triggered')
 // 	$(img src(panel6.gif))
 	     $("#dragon").attr("src", "assets/panel6.gif")
 	  }
-	})
+	});
 
 
 
