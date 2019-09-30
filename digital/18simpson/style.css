@@ -1,0 +1,147 @@
+/* styles for Tunnel Run*/
+
+
+body{
+	background-color: black;
+
+	/*text-align: center;
+*/
+	}
+	
+h1, p {
+		text-align: center;
+	}
+	
+.horizDiv1{
+	width: 130vh;
+	background-color: white;
+	font-size: 0px;
+
+	}
+
+.horizDiv1 img{
+	display: inline;
+	height: 60vh;
+}	
+
+.horizDiv2{
+	width: 200vh;
+	background-color: black;
+	}
+	
+.horizDiv2 img{
+	margin-top: 10px;
+	display: inline;
+	height: 60vh;
+}	
+
+.horizDiv3{
+	width: 400vh;
+	background-color: black;
+	font-size: 0px;
+	}
+	
+.horizDiv3 img{
+display: inline;
+height: 60vh;
+}	
+	
+.vertDiv{
+	
+	background-color: black;
+	position: block;
+	}
+	
+.vertDiv img{
+display: block;
+width:80%;
+max-width: 800px;
+margin: auto;
+/* 
+margin-left: auto;
+margin-right: auto;
+ */
+}	
+		
+.fixedClass{
+	width: 100%;
+	position: fixed;
+	top: 0%;
+	}
+	
+.fixedClass2{
+	width: 100%;
+	position: fixed;
+	margin-top: 500px;
+	}
+	
+.relativeClass{
+	position: relative;
+	background-color: pink;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+.absoluteClass{
+	position: absolute;
+	top: 0%;
+	left: 0;
+	}
+
+
+	
+/*.navigationClass{
+	position: fixed;
+	height:50vh;  
+	bottom: 0;
+	margin: auto;
+	width: 100%;
+	
+	}
+*/
+	
+.navDiv{
+	width: 100vw;
+	max-width: 500px;
+	background-color: white;
+	position: fixed;
+	border: solid 5px red;
+	left: 0;
+/* 
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+ */
+/* 
+	left: 24vh;
+	right: 24vh;
+ */
+
+	}
+	
+.navDiv img{
+display: inline;
+width:30%;
+max-width: 100px;
+
+}
+	
+
+.navDiv1{
+	
+	background-color: white;
+	max-width: 500px;
+	background-color: white;
+	position: absolute;
+	border: solid 5px red;
+	
+
+	}
+	
+.navDiv1 img{
+display: inline-block;
+width:30%%;
+max-width: 150px;
+
+
+}
