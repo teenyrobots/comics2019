@@ -1,10 +1,10 @@
 // script file for Jquery
 $(document).ready(function(){
-    
+
     let hasItBeenClicked = false;
-    
+
     let larkPlaying = false;
-    
+
     $("#larkControl").click(function(){
     if (larkPlaying === false) {
     $("#larkSound").trigger ("play");
@@ -27,9 +27,9 @@ $(".Panel2Changer").click (function(){
         $(this).attr("src","assets/P21.png");
        hasItBeenClicked = false;
    }
-    
+
 });
-    
+
 $(".Panel3Changer").click (function(){
    if(hasItBeenClicked === false){
        $(this).attr("src","assets/P32.png");
@@ -38,9 +38,9 @@ $(".Panel3Changer").click (function(){
    }
     else{
         $(this).attr("src","assets/P31.gif");
-       hasItBeenClicked = false;    
+       hasItBeenClicked = false;
 }
-    
+
 });
 
 $(".Panel4Changer").click (function(){
@@ -51,7 +51,7 @@ $(".Panel4Changer").click (function(){
    }
     else{
         $(this).attr("src","assets/P43.gif");
-       hasItBeenClicked = false;    
+       hasItBeenClicked = false;
 }
     });
 $(".Panel5Changer").click (function(){
@@ -62,15 +62,13 @@ $(".Panel5Changer").click (function(){
    }
     else{
         $(this).attr("src","assets/P53.gif");
-       hasItBeenClicked = false;    
+       hasItBeenClicked = false;
 }
 
 
-        
 
-    
-});
-    
-});
-    
 
+
+});
+
+});
